@@ -1,0 +1,2223 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/amusement-park/amusement-park.exe"
+		},
+		{
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/amusement-park/amusement-park.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/CMakeLists.txt",
+			"C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 4
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 3,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W4 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /MP /wd4244 /wd4127 /wd4267 /wd4706 /wd4458 /wd4996 /wd26495 /openmp"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "IMGUI_IMPL_OPENGL_LOADER_GLAD"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/amusement-park/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/precompiled/windows/glfw/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				8,
+				13,
+				20,
+				22,
+				28,
+				32,
+				34,
+				37,
+				39,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				69,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				85,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				102,
+				104,
+				108,
+				110,
+				112,
+				115,
+				117,
+				119,
+				121,
+				124,
+				127,
+				129,
+				131,
+				133,
+				138,
+				140,
+				143,
+				145,
+				147,
+				149,
+				151,
+				153,
+				155,
+				157,
+				160,
+				162,
+				164,
+				167,
+				170,
+				172,
+				174,
+				178,
+				181,
+				183,
+				185,
+				186,
+				187,
+				189,
+				192,
+				196,
+				198,
+				200,
+				202
+			]
+		}
+	],
+	"id" : "amusement-park::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W4 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\Users\\caioj\\Desktop\\Jordan\\France\\X\\2A_21_22\\P3\\INF443\\amusement-park\\library\\third_party\\precompiled\\windows\\glfw\\lib\\glfw3.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "amusement-park",
+	"nameOnDisk" : "amusement-park.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "cgp\\base",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "cgp\\base\\basic_types",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		},
+		{
+			"name" : "cgp\\base\\error",
+			"sourceIndexes" : 
+			[
+				3,
+				4
+			]
+		},
+		{
+			"name" : "cgp\\base\\rand",
+			"sourceIndexes" : 
+			[
+				5,
+				6
+			]
+		},
+		{
+			"name" : "cgp\\base\\stl",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		},
+		{
+			"name" : "cgp\\base\\string",
+			"sourceIndexes" : 
+			[
+				8,
+				9
+			]
+		},
+		{
+			"name" : "cgp\\base\\types",
+			"sourceIndexes" : 
+			[
+				10
+			]
+		},
+		{
+			"name" : "cgp",
+			"sourceIndexes" : 
+			[
+				11
+			]
+		},
+		{
+			"name" : "cgp\\containers\\buffer",
+			"sourceIndexes" : 
+			[
+				12
+			]
+		},
+		{
+			"name" : "cgp\\containers\\buffer\\test",
+			"sourceIndexes" : 
+			[
+				13,
+				14
+			]
+		},
+		{
+			"name" : "cgp\\containers\\buffer_stack",
+			"sourceIndexes" : 
+			[
+				15
+			]
+		},
+		{
+			"name" : "cgp\\containers\\buffer_stack\\implementation",
+			"sourceIndexes" : 
+			[
+				16,
+				17,
+				18,
+				19
+			]
+		},
+		{
+			"name" : "cgp\\containers\\buffer_stack\\special_types",
+			"sourceIndexes" : 
+			[
+				20,
+				21
+			]
+		},
+		{
+			"name" : "cgp\\containers\\buffer_stack\\test",
+			"sourceIndexes" : 
+			[
+				22,
+				23
+			]
+		},
+		{
+			"name" : "cgp\\containers",
+			"sourceIndexes" : 
+			[
+				24
+			]
+		},
+		{
+			"name" : "cgp\\containers\\grid",
+			"sourceIndexes" : 
+			[
+				25
+			]
+		},
+		{
+			"name" : "cgp\\containers\\grid\\grid_2D",
+			"sourceIndexes" : 
+			[
+				26
+			]
+		},
+		{
+			"name" : "cgp\\containers\\grid\\grid_3D",
+			"sourceIndexes" : 
+			[
+				27
+			]
+		},
+		{
+			"name" : "cgp\\containers\\grid\\test",
+			"sourceIndexes" : 
+			[
+				28,
+				29
+			]
+		},
+		{
+			"name" : "cgp\\containers\\grid_stack",
+			"sourceIndexes" : 
+			[
+				30
+			]
+		},
+		{
+			"name" : "cgp\\containers\\grid_stack\\grid_stack_2D",
+			"sourceIndexes" : 
+			[
+				31
+			]
+		},
+		{
+			"name" : "cgp\\containers\\grid_stack\\grid_stack_2D\\test",
+			"sourceIndexes" : 
+			[
+				32,
+				33
+			]
+		},
+		{
+			"name" : "cgp\\containers\\offset_grid",
+			"sourceIndexes" : 
+			[
+				34,
+				35
+			]
+		},
+		{
+			"name" : "cgp\\display",
+			"sourceIndexes" : 
+			[
+				36
+			]
+		},
+		{
+			"name" : "cgp\\display\\drawable\\curve_drawable",
+			"sourceIndexes" : 
+			[
+				37,
+				38
+			]
+		},
+		{
+			"name" : "cgp\\display\\drawable\\curve_dynamic_drawable",
+			"sourceIndexes" : 
+			[
+				39,
+				40
+			]
+		},
+		{
+			"name" : "cgp\\display\\drawable",
+			"sourceIndexes" : 
+			[
+				41
+			]
+		},
+		{
+			"name" : "cgp\\display\\drawable\\hierarchy_mesh_drawable",
+			"sourceIndexes" : 
+			[
+				42,
+				43
+			]
+		},
+		{
+			"name" : "cgp\\display\\drawable\\hierarchy_mesh_drawable\\hierarchy_mesh_drawable_node",
+			"sourceIndexes" : 
+			[
+				44,
+				45
+			]
+		},
+		{
+			"name" : "cgp\\display\\drawable\\mesh_drawable",
+			"sourceIndexes" : 
+			[
+				46,
+				47
+			]
+		},
+		{
+			"name" : "cgp\\display\\drawable\\mesh_normal_drawable",
+			"sourceIndexes" : 
+			[
+				48,
+				49
+			]
+		},
+		{
+			"name" : "cgp\\display\\drawable\\mesh_wireframe_drawable",
+			"sourceIndexes" : 
+			[
+				50,
+				51
+			]
+		},
+		{
+			"name" : "cgp\\display\\drawable\\segments_drawable",
+			"sourceIndexes" : 
+			[
+				52,
+				53
+			]
+		},
+		{
+			"name" : "cgp\\display\\drawable\\shading_parameters",
+			"sourceIndexes" : 
+			[
+				54,
+				55
+			]
+		},
+		{
+			"name" : "cgp\\display\\drawable\\skybox_drawable",
+			"sourceIndexes" : 
+			[
+				56,
+				57
+			]
+		},
+		{
+			"name" : "cgp\\display\\drawable\\spatial_domain_grid_drawable",
+			"sourceIndexes" : 
+			[
+				58,
+				59
+			]
+		},
+		{
+			"name" : "cgp\\display\\drawable\\trajectory_drawable",
+			"sourceIndexes" : 
+			[
+				60,
+				61
+			]
+		},
+		{
+			"name" : "cgp\\display\\drawable\\triangle_soup_drawable",
+			"sourceIndexes" : 
+			[
+				62,
+				63
+			]
+		},
+		{
+			"name" : "cgp\\display\\image",
+			"sourceIndexes" : 
+			[
+				64,
+				65
+			]
+		},
+		{
+			"name" : "cgp\\display\\opengl\\debug",
+			"sourceIndexes" : 
+			[
+				66,
+				67
+			]
+		},
+		{
+			"name" : "cgp\\display\\opengl\\glad",
+			"sourceIndexes" : 
+			[
+				68
+			]
+		},
+		{
+			"name" : "cgp\\display\\opengl\\helper",
+			"sourceIndexes" : 
+			[
+				69,
+				70
+			]
+		},
+		{
+			"name" : "cgp\\display\\opengl",
+			"sourceIndexes" : 
+			[
+				71
+			]
+		},
+		{
+			"name" : "cgp\\display\\opengl\\shaders",
+			"sourceIndexes" : 
+			[
+				72,
+				73
+			]
+		},
+		{
+			"name" : "cgp\\display\\opengl\\texture",
+			"sourceIndexes" : 
+			[
+				74,
+				75
+			]
+		},
+		{
+			"name" : "cgp\\display\\opengl\\uniform",
+			"sourceIndexes" : 
+			[
+				76,
+				77
+			]
+		},
+		{
+			"name" : "cgp\\display\\window",
+			"sourceIndexes" : 
+			[
+				78,
+				79
+			]
+		},
+		{
+			"name" : "cgp\\files",
+			"sourceIndexes" : 
+			[
+				80,
+				81
+			]
+		},
+		{
+			"name" : "cgp\\helper_common_scene\\helper",
+			"sourceIndexes" : 
+			[
+				82,
+				83
+			]
+		},
+		{
+			"name" : "cgp\\helper_common_scene",
+			"sourceIndexes" : 
+			[
+				84
+			]
+		},
+		{
+			"name" : "cgp\\helper_common_scene\\scene_environment_basic",
+			"sourceIndexes" : 
+			[
+				85,
+				86
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\camera",
+			"sourceIndexes" : 
+			[
+				87
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\camera\\camera_around_center",
+			"sourceIndexes" : 
+			[
+				88,
+				89
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\camera\\camera_base",
+			"sourceIndexes" : 
+			[
+				90,
+				91
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\camera\\camera_head",
+			"sourceIndexes" : 
+			[
+				92,
+				93
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\camera\\camera_projection",
+			"sourceIndexes" : 
+			[
+				94,
+				95
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\camera\\camera_spherical_coordinates",
+			"sourceIndexes" : 
+			[
+				96,
+				97
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\camera\\common_functions",
+			"sourceIndexes" : 
+			[
+				98,
+				99
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\camera_standard_behavior",
+			"sourceIndexes" : 
+			[
+				100,
+				101
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\glfw_inputs",
+			"sourceIndexes" : 
+			[
+				102,
+				103
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\gui",
+			"sourceIndexes" : 
+			[
+				104,
+				105
+			]
+		},
+		{
+			"name" : "cgp\\interaction",
+			"sourceIndexes" : 
+			[
+				106
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\picking",
+			"sourceIndexes" : 
+			[
+				107
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\picking\\picking_plane",
+			"sourceIndexes" : 
+			[
+				108,
+				109
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\picking\\picking_spheres",
+			"sourceIndexes" : 
+			[
+				110,
+				111
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\picking\\picking_structure",
+			"sourceIndexes" : 
+			[
+				112,
+				113
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\timer",
+			"sourceIndexes" : 
+			[
+				114
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\timer\\timer_basic",
+			"sourceIndexes" : 
+			[
+				115,
+				116
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\timer\\timer_event_periodic",
+			"sourceIndexes" : 
+			[
+				117,
+				118
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\timer\\timer_fps",
+			"sourceIndexes" : 
+			[
+				119,
+				120
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\timer\\timer_interval",
+			"sourceIndexes" : 
+			[
+				121,
+				122
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\tracker",
+			"sourceIndexes" : 
+			[
+				123
+			]
+		},
+		{
+			"name" : "cgp\\interaction\\tracker\\velocity_tracker",
+			"sourceIndexes" : 
+			[
+				124,
+				125
+			]
+		},
+		{
+			"name" : "cgp\\math\\affine",
+			"sourceIndexes" : 
+			[
+				126
+			]
+		},
+		{
+			"name" : "cgp\\math\\affine\\affine_rt",
+			"sourceIndexes" : 
+			[
+				127,
+				128
+			]
+		},
+		{
+			"name" : "cgp\\math\\affine\\affine_rts",
+			"sourceIndexes" : 
+			[
+				129,
+				130
+			]
+		},
+		{
+			"name" : "cgp\\math\\frame",
+			"sourceIndexes" : 
+			[
+				131,
+				132
+			]
+		},
+		{
+			"name" : "cgp\\math\\interpolation",
+			"sourceIndexes" : 
+			[
+				133,
+				134
+			]
+		},
+		{
+			"name" : "cgp\\math",
+			"sourceIndexes" : 
+			[
+				135
+			]
+		},
+		{
+			"name" : "cgp\\math\\matrix",
+			"sourceIndexes" : 
+			[
+				136
+			]
+		},
+		{
+			"name" : "cgp\\math\\matrix\\matrix_stack",
+			"sourceIndexes" : 
+			[
+				137
+			]
+		},
+		{
+			"name" : "cgp\\math\\matrix\\matrix_stack\\special_types\\definition",
+			"sourceIndexes" : 
+			[
+				138,
+				139
+			]
+		},
+		{
+			"name" : "cgp\\math\\matrix\\matrix_stack\\special_types\\mat4",
+			"sourceIndexes" : 
+			[
+				140,
+				141
+			]
+		},
+		{
+			"name" : "cgp\\math\\matrix\\matrix_stack\\special_types",
+			"sourceIndexes" : 
+			[
+				142
+			]
+		},
+		{
+			"name" : "cgp\\math\\matrix\\test",
+			"sourceIndexes" : 
+			[
+				143,
+				144
+			]
+		},
+		{
+			"name" : "cgp\\math\\projection",
+			"sourceIndexes" : 
+			[
+				145,
+				146
+			]
+		},
+		{
+			"name" : "cgp\\math\\quaternion",
+			"sourceIndexes" : 
+			[
+				147,
+				148
+			]
+		},
+		{
+			"name" : "cgp\\math\\rotation_transform",
+			"sourceIndexes" : 
+			[
+				149,
+				150
+			]
+		},
+		{
+			"name" : "cgp\\math\\rotation_transform\\test",
+			"sourceIndexes" : 
+			[
+				151,
+				152
+			]
+		},
+		{
+			"name" : "cgp\\math\\vec_mat\\test",
+			"sourceIndexes" : 
+			[
+				153,
+				154
+			]
+		},
+		{
+			"name" : "cgp\\math\\vec_mat",
+			"sourceIndexes" : 
+			[
+				155,
+				156
+			]
+		},
+		{
+			"name" : "cgp\\shape\\curve",
+			"sourceIndexes" : 
+			[
+				157,
+				158
+			]
+		},
+		{
+			"name" : "cgp\\shape\\implicit",
+			"sourceIndexes" : 
+			[
+				159
+			]
+		},
+		{
+			"name" : "cgp\\shape\\implicit\\marching_cube\\helper",
+			"sourceIndexes" : 
+			[
+				160,
+				161
+			]
+		},
+		{
+			"name" : "cgp\\shape\\implicit\\marching_cube",
+			"sourceIndexes" : 
+			[
+				162,
+				163
+			]
+		},
+		{
+			"name" : "cgp\\shape\\intersection",
+			"sourceIndexes" : 
+			[
+				164,
+				165
+			]
+		},
+		{
+			"name" : "cgp\\shape\\mesh\\loader",
+			"sourceIndexes" : 
+			[
+				166
+			]
+		},
+		{
+			"name" : "cgp\\shape\\mesh\\loader\\obj",
+			"sourceIndexes" : 
+			[
+				167,
+				168
+			]
+		},
+		{
+			"name" : "cgp\\shape\\mesh",
+			"sourceIndexes" : 
+			[
+				169
+			]
+		},
+		{
+			"name" : "cgp\\shape\\mesh\\primitive",
+			"sourceIndexes" : 
+			[
+				170,
+				171
+			]
+		},
+		{
+			"name" : "cgp\\shape\\mesh\\structure",
+			"sourceIndexes" : 
+			[
+				172,
+				173
+			]
+		},
+		{
+			"name" : "cgp\\shape\\noise",
+			"sourceIndexes" : 
+			[
+				174,
+				175
+			]
+		},
+		{
+			"name" : "cgp\\shape",
+			"sourceIndexes" : 
+			[
+				176
+			]
+		},
+		{
+			"name" : "cgp\\shape\\spatial_domain",
+			"sourceIndexes" : 
+			[
+				177
+			]
+		},
+		{
+			"name" : "cgp\\shape\\spatial_domain\\spatial_domain_grid_3D",
+			"sourceIndexes" : 
+			[
+				178,
+				179
+			]
+		},
+		{
+			"name" : "third_party\\src\\glad\\include\\glad",
+			"sourceIndexes" : 
+			[
+				180
+			]
+		},
+		{
+			"name" : "third_party\\src\\glad\\src",
+			"sourceIndexes" : 
+			[
+				181
+			]
+		},
+		{
+			"name" : "third_party\\src\\imgui",
+			"sourceIndexes" : 
+			[
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195
+			]
+		},
+		{
+			"name" : "third_party\\src\\jpeg",
+			"sourceIndexes" : 
+			[
+				196,
+				197,
+				198,
+				199
+			]
+		},
+		{
+			"name" : "third_party\\src\\lodepng",
+			"sourceIndexes" : 
+			[
+				200,
+				201
+			]
+		},
+		{
+			"name" : "third_party\\src\\simplexnoise",
+			"sourceIndexes" : 
+			[
+				202,
+				203
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/base/base.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/base/basic_types/basic_types.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/base/basic_types/basic_types.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/base/error/error.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/base/error/error.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/base/rand/rand.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/base/rand/rand.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/base/stl/stl.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/base/string/string.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/base/string/string.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/base/types/types.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/cgp.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/buffer/buffer.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/buffer/test/test_buffer.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/buffer/test/test_buffer.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/buffer_stack/buffer_stack.hpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/buffer_stack/implementation/buffer_stack.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/buffer_stack/implementation/buffer_stack2.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/buffer_stack/implementation/buffer_stack3.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/buffer_stack/implementation/buffer_stack4.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/buffer_stack/special_types/special_types.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/buffer_stack/special_types/special_types.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/buffer_stack/test/test_buffer_stack.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/buffer_stack/test/test_buffer_stack.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/containers.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/grid/grid.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/grid/grid_2D/grid_2D.hpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/grid/grid_3D/grid_3D.hpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/grid/test/test_grid.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/grid/test/test_grid.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/grid_stack/grid_stack.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/grid_stack/grid_stack_2D/grid_stack_2D.hpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/offset_grid/offset_grid.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/containers/offset_grid/offset_grid.hpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/display.hpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/curve_drawable/curve_drawable.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/curve_drawable/curve_drawable.hpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/curve_dynamic_drawable/curve_dynamic_drawable.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/curve_dynamic_drawable/curve_dynamic_drawable.hpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/drawable.hpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.hpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable_node/hierarchy_mesh_drawable_node.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable_node/hierarchy_mesh_drawable_node.hpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/mesh_drawable/mesh_drawable.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/mesh_drawable/mesh_drawable.hpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/mesh_normal_drawable/mesh_normal_drawable.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/mesh_normal_drawable/mesh_normal_drawable.hpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/mesh_wireframe_drawable/mesh_wireframe_drawable.hpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/segments_drawable/segments_drawable.cpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/segments_drawable/segments_drawable.hpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/shading_parameters/shading_parameters.cpp",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/shading_parameters/shading_parameters.hpp",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/skybox_drawable/skybox_drawable.cpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/skybox_drawable/skybox_drawable.hpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/spatial_domain_grid_drawable/spatial_domain_grid_drawable.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/spatial_domain_grid_drawable/spatial_domain_grid_drawable.hpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/trajectory_drawable/trajectory_drawable.cpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/trajectory_drawable/trajectory_drawable.hpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/triangle_soup_drawable/triangle_soup_drawable.cpp",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/drawable/triangle_soup_drawable/triangle_soup_drawable.hpp",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/image/image.cpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/image/image.hpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/opengl/debug/debug.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/opengl/debug/debug.hpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/opengl/glad/glad.hpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/opengl/helper/opengl_helper.cpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/opengl/helper/opengl_helper.hpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/opengl/opengl.hpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/opengl/shaders/shaders.cpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/opengl/shaders/shaders.hpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/opengl/texture/texture.cpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/opengl/texture/texture.hpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/opengl/uniform/uniform.cpp",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/opengl/uniform/uniform.hpp",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/window/window.cpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/display/window/window.hpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/files/files.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/files/files.hpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/helper_common_scene/helper/helper.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/helper_common_scene/helper/helper.hpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/helper_common_scene/helper_common_scene.hpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/helper_common_scene/scene_environment_basic/scene_environment_basic.cpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/helper_common_scene/scene_environment_basic/scene_environment_basic.hpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/camera/camera.hpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/camera/camera_around_center/camera_around_center.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/camera/camera_around_center/camera_around_center.hpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/camera/camera_base/camera_base.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/camera/camera_base/camera_base.hpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/camera/camera_head/camera_head.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/camera/camera_head/camera_head.hpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/camera/camera_projection/camera_projection.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/camera/camera_projection/camera_projection.hpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/camera/camera_spherical_coordinates/camera_spherical_coordinates.hpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/camera/common_functions/common_functions.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/camera/common_functions/common_functions.hpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/camera_standard_behavior/camera_standard_behavior.cpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/camera_standard_behavior/camera_standard_behavior.hpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/glfw_inputs/glfw_inputs.cpp",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/glfw_inputs/glfw_inputs.hpp",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/gui/gui.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/gui/gui.hpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/interaction.hpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/picking/picking.hpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/picking/picking_plane/picking_plane.cpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/picking/picking_plane/picking_plane.hpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/picking/picking_spheres/picking_spheres.cpp",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/picking/picking_spheres/picking_spheres.hpp",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/picking/picking_structure/picking_structure.cpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/picking/picking_structure/picking_structure.hpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/timer/timer.hpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/timer/timer_basic/timer_basic.cpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/timer/timer_basic/timer_basic.hpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/timer/timer_event_periodic/timer_event_periodic.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/timer/timer_event_periodic/timer_event_periodic.hpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/timer/timer_fps/timer_fps.cpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/timer/timer_fps/timer_fps.hpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/timer/timer_interval/timer_interval.cpp",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/timer/timer_interval/timer_interval.hpp",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/tracker/tracker.hpp",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/tracker/velocity_tracker/velocity_tracker.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/interaction/tracker/velocity_tracker/velocity_tracker.hpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/affine/affine.hpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/affine/affine_rt/affine_rt.cpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/affine/affine_rt/affine_rt.hpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/affine/affine_rts/affine_rts.cpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/affine/affine_rts/affine_rts.hpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/frame/frame.cpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/frame/frame.hpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/interpolation/interpolation.cpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/interpolation/interpolation.hpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/math.hpp",
+			"sourceGroupIndex" : 78
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/matrix/matrix.hpp",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/matrix/matrix_stack/matrix_stack.hpp",
+			"sourceGroupIndex" : 80
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/matrix/matrix_stack/special_types/definition/special_types.cpp",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/matrix/matrix_stack/special_types/definition/special_types.hpp",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/matrix/matrix_stack/special_types/mat4/mat4.cpp",
+			"sourceGroupIndex" : 82
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/matrix/matrix_stack/special_types/mat4/mat4.hpp",
+			"sourceGroupIndex" : 82
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/matrix/matrix_stack/special_types/special_types.hpp",
+			"sourceGroupIndex" : 83
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/matrix/test/test_matrix_stack.cpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/matrix/test/test_matrix_stack.hpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/projection/projection.cpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/projection/projection.hpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/quaternion/quaternion.cpp",
+			"sourceGroupIndex" : 86
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/quaternion/quaternion.hpp",
+			"sourceGroupIndex" : 86
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/rotation_transform/rotation_transform.cpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/rotation_transform/rotation_transform.hpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/rotation_transform/test/test_rotation.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/rotation_transform/test/test_rotation.hpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/vec_mat/test/test_vec_mat.cpp",
+			"sourceGroupIndex" : 89
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/vec_mat/test/test_vec_mat.hpp",
+			"sourceGroupIndex" : 89
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/vec_mat/vec_mat.cpp",
+			"sourceGroupIndex" : 90
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/math/vec_mat/vec_mat.hpp",
+			"sourceGroupIndex" : 90
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/curve/curve.cpp",
+			"sourceGroupIndex" : 91
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/curve/curve.hpp",
+			"sourceGroupIndex" : 91
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/implicit/implicit.hpp",
+			"sourceGroupIndex" : 92
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp",
+			"sourceGroupIndex" : 93
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/implicit/marching_cube/helper/marching_cubes_lut.hpp",
+			"sourceGroupIndex" : 93
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/implicit/marching_cube/marching_cube.cpp",
+			"sourceGroupIndex" : 94
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/implicit/marching_cube/marching_cube.hpp",
+			"sourceGroupIndex" : 94
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/intersection/intersection.cpp",
+			"sourceGroupIndex" : 95
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/intersection/intersection.hpp",
+			"sourceGroupIndex" : 95
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/mesh/loader/loader.hpp",
+			"sourceGroupIndex" : 96
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/mesh/loader/obj/obj.cpp",
+			"sourceGroupIndex" : 97
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/mesh/loader/obj/obj.hpp",
+			"sourceGroupIndex" : 97
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/mesh/mesh.hpp",
+			"sourceGroupIndex" : 98
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/mesh/primitive/mesh_primitive.cpp",
+			"sourceGroupIndex" : 99
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/mesh/primitive/mesh_primitive.hpp",
+			"sourceGroupIndex" : 99
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/mesh/structure/mesh.cpp",
+			"sourceGroupIndex" : 100
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/mesh/structure/mesh.hpp",
+			"sourceGroupIndex" : 100
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/noise/noise.cpp",
+			"sourceGroupIndex" : 101
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/noise/noise.hpp",
+			"sourceGroupIndex" : 101
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/shape.hpp",
+			"sourceGroupIndex" : 102
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/spatial_domain/spatial_domain.hpp",
+			"sourceGroupIndex" : 103
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp",
+			"sourceGroupIndex" : 104
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/cgp/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.hpp",
+			"sourceGroupIndex" : 104
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/glad/include/glad/glad.hpp",
+			"sourceGroupIndex" : 105
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/glad/src/glad.cpp",
+			"sourceGroupIndex" : 106
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/imgui/imconfig.h",
+			"sourceGroupIndex" : 107
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/imgui/imgui.cpp",
+			"sourceGroupIndex" : 107
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/imgui/imgui.h",
+			"sourceGroupIndex" : 107
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/imgui/imgui_demo.cpp",
+			"sourceGroupIndex" : 107
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/imgui/imgui_draw.cpp",
+			"sourceGroupIndex" : 107
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/imgui/imgui_impl_glfw.cpp",
+			"sourceGroupIndex" : 107
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/imgui/imgui_impl_glfw.h",
+			"sourceGroupIndex" : 107
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/imgui/imgui_impl_opengl3.cpp",
+			"sourceGroupIndex" : 107
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/imgui/imgui_impl_opengl3.h",
+			"sourceGroupIndex" : 107
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/imgui/imgui_internal.h",
+			"sourceGroupIndex" : 107
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/imgui/imgui_widgets.cpp",
+			"sourceGroupIndex" : 107
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/imgui/imstb_rectpack.h",
+			"sourceGroupIndex" : 107
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/imgui/imstb_textedit.h",
+			"sourceGroupIndex" : 107
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/imgui/imstb_truetype.h",
+			"sourceGroupIndex" : 107
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/jpeg/jpgd.cpp",
+			"sourceGroupIndex" : 108
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/jpeg/jpgd.h",
+			"sourceGroupIndex" : 108
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/jpeg/jpge.cpp",
+			"sourceGroupIndex" : 108
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/jpeg/jpge.h",
+			"sourceGroupIndex" : 108
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/lodepng/lodepng.cpp",
+			"sourceGroupIndex" : 109
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/lodepng/lodepng.h",
+			"sourceGroupIndex" : 109
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/simplexnoise/simplexnoise1234.cpp",
+			"sourceGroupIndex" : 110
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/library/third_party/src/simplexnoise/simplexnoise1234.hpp",
+			"sourceGroupIndex" : 110
+		}
+	],
+	"type" : "EXECUTABLE"
+}

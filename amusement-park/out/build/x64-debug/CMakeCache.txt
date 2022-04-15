@@ -192,6 +192,9 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Relative path to CGP library location
+PATH_TO_LIBRARY:PATH=../library/CMakeLists.txt
+
 //Value Computed by CMake
 amusement-park_BINARY_DIR:STATIC=C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/amusement-park/out/build/x64-debug
 
