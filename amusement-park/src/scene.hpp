@@ -15,6 +15,8 @@ struct scene_structure {
 
 	gui_parameters gui;                       // Standard GUI element storage
 
+	cgp::mesh_drawable terrain;
+
 	void initialize();  // Standard initialization to be called before the animation loop
 	void display();     // The frame display to be called within the animation loop
 	void display_gui(); // The display of the GUI, also called within the animation loop
