@@ -19,7 +19,6 @@ namespace cgp {
 			exit(1);
 		}
 
-
 		//   - Shader used to display meshes
 		GLuint const shader_mesh = opengl_load_shader("shaders/mesh/vert.glsl", "shaders/mesh/frag.glsl");
 		//   - Shader used to display constant color (ex. for curves)

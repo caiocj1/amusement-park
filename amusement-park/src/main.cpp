@@ -1,11 +1,16 @@
 #include <iostream>
 #include "cgp/cgp.hpp"
+#include "GLFW/glfw3.h"
+#include "stb_image.h"
 
 #include "scene.hpp"
 
+#ifndef GLFW_TRUE
+#define GLFW_TRUE 1
+#define GLFW_FALSE 0
+#endif
+
 using namespace cgp;
-
-
 
 helper_common_scene helper_common;
 
@@ -15,7 +20,6 @@ bool gui_display_wireframe = false;
 scene_structure scene;
 
 GLFWwindow* standard_window_initialization(int width = 0, int height = 0);
-
 
 
 int main(int, char* argv[])
@@ -29,6 +33,7 @@ int main(int, char* argv[])
 
 	// Standard Initialization with dimension in pixels
 	GLFWwindow* window = standard_window_initialization();
+
 
 	// Custom scene initialization
 	std::cout << "Initialize data of the scene ..." << std::endl;
@@ -119,6 +124,8 @@ GLFWwindow* standard_window_initialization(int width_target, int height_target)
 
 	// Load default shader and initialize default frame
 	helper_common.initialize();
+
+	
 
 	return window;
 }

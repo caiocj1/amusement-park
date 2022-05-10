@@ -34,7 +34,8 @@ mesh create_terrain_mesh(int N, float terrain_length)
             float y = (v - 0.5f) * terrain_length;
 
             // Compute the surface height function at the given sampled coordinate
-            float z = evaluate_terrain_height(x, y);
+            //float z = evaluate_terrain_height(x, y);
+            float z = 0;
 
             // Store vertex coordinates
             terrain.position[kv + N * ku] = { x,y,z };
