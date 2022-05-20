@@ -1,27 +1,39 @@
 #pragma once
 
 #include "cgp/cgp.hpp"
+#include "shadow_map.hpp"
 
 struct gui_parameters {
 	bool display_frame = true;
 	bool display_wireframe = false;
+	bool animated_shapes = true;
+	float speed = 1.0f;
 };
 
 struct scene_structure {
 
 	cgp::mesh_drawable global_frame;          // The standard global frame
-	cgp::scene_environment_basic_camera_spherical_coords environment; // Standard environment controler
+	scene_environment_shadow_map environment; // Standard environment controler
 	cgp::inputs_interaction_parameters inputs; // Storage for inputs status (mouse, keyboard, window dimension)
+
+	shadow_map_structure shadow_map;
+
+	cgp::timer_basic timer;
 
 	gui_parameters gui;                       // Standard GUI element storage
 
 	cgp::skybox_drawable skybox;
 
+
 	cgp::mesh_drawable terrain;
-	cgp::mesh_drawable test_cylinder;
+	cgp::mesh_drawable sphere_light; //used to display the position of the light
+	cgp::mesh_drawable sphere;
+	cgp::mesh_drawable cube;
+
+
+	void update_camera();
 
 	void initialize();  // Standard initialization to be called before the animation loop
 	void display();     // The frame display to be called within the animation loop
 	void display_gui(); // The display of the GUI, also called within the animation loop
-
 };
