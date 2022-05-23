@@ -56,6 +56,7 @@ int main(int, char* argv[])
 
 		scene.update_camera();
 
+
 		// Call the display of the scene
 		scene.display();
 
@@ -80,13 +81,13 @@ void window_size_callback(GLFWwindow*, int width, int height)
 }
 
 // This function is called everytime the mouse is moved
-void mouse_move_callback(GLFWwindow* /*window*/, double xpos, double ypos)
+void mouse_move_callback(GLFWwindow* window, double xpos, double ypos)
 {
 	scene.inputs.mouse_position_update({ xpos, ypos });
 
 	//// Apply camera rotation only if shift is not pressed
 	//if (!scene.inputs.keyboard.shift)
-	//	camera_standard_behavior_rotation(scene.environment.camera, scene.inputs);
+		//camera_standard_behavior_rotation(scene.environment.camera, scene.inputs);
 }
 
 // This function is called everytime a mouse button is clicked/released
@@ -122,7 +123,8 @@ GLFWwindow* standard_window_initialization(int width_target, int height_target)
 	glfwSetKeyCallback(window, keyboard_callback);            // Event called when a keyboard touch is pressed/released
 	glfwSetMouseButtonCallback(window, mouse_click_callback); // Event called when a button of the mouse is clicked/released
 	glfwSetCursorPosCallback(window, mouse_move_callback);    // Event called when the mouse is moved
-	glfwSetWindowSizeCallback(window, window_size_callback);  // Event called when the window is rescaled        
+	glfwSetWindowSizeCallback(window, window_size_callback);  // Event called when the window is rescaled
+	glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
 	// Load default shader and initialize default frame
 	helper_common.initialize();

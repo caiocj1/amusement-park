@@ -2,6 +2,7 @@
 
 #include "cgp/cgp.hpp"
 #include "shadow_map.hpp"
+#include "terrain.hpp"
 
 struct gui_parameters {
 	bool display_frame = true;
@@ -24,16 +25,21 @@ struct scene_structure {
 
 	cgp::skybox_drawable skybox;
 
+	cgp::mesh water_mesh;
 
 	cgp::mesh_drawable terrain;
+	cgp::mesh_drawable water;
 	cgp::mesh_drawable sphere_light; //used to display the position of the light
-	cgp::mesh_drawable sphere;
-	cgp::mesh_drawable cube;
 
+	perlin_noise_parameters parameters;
+
+	float last_wait=0;
 
 	void update_camera();
 
 	void initialize();  // Standard initialization to be called before the animation loop
 	void display();     // The frame display to be called within the animation loop
 	void display_gui(); // The display of the GUI, also called within the animation loop
+	void reset_mouse(GLFWwindow* window);
+
 };

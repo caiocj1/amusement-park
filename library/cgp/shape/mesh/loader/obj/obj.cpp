@@ -111,6 +111,8 @@ mesh mesh_load_file_obj(const std::string& filename, buffer<buffer<int> >& verte
     buffer<vec3> positions = loader::obj_read_positions(filename);
     buffer<vec2> texture_uv = loader::obj_read_texture_uv(filename);
     buffer<vec3> normals = loader::obj_read_normals(filename);
+    //std::cout << "texture_uv" << texture_uv;
+
 
     assert_cgp(positions.size()>0, str("File ")+filename+" has 0 vertices");
 
