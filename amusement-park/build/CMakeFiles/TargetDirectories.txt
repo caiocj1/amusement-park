@@ -1,3 +1,0 @@
-C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/amusement-park/build/CMakeFiles/amusement-park.dir
-C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/amusement-park/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/caioj/Desktop/Jordan/France/X/2A_21_22/P3/INF443/amusement-park/amusement-park/build/CMakeFiles/ZERO_CHECK.dir
