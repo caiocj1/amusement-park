@@ -36,6 +36,7 @@ struct inputs_keyboard_parameters {
 
 	bool shift;
 	bool ctrl;
+	bool space;
 	bool up, down, right, left;
 	bool w, a, s, d;
 

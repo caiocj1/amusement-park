@@ -49,7 +49,7 @@ void inputs_mouse_cursor_click_parameters::update_from_glfw_click(int button, in
 
 void inputs_keyboard_parameters::update_from_glfw_key(int key, int action)
 {
-	// Shift and CTRL
+	// Shift, CTRL, Space
 	if ((key == GLFW_KEY_LEFT_SHIFT || key == GLFW_KEY_RIGHT_SHIFT) && action == GLFW_PRESS)
 		shift = true;
 	if ((key == GLFW_KEY_LEFT_SHIFT || key == GLFW_KEY_RIGHT_SHIFT) && action == GLFW_RELEASE)
@@ -59,6 +59,11 @@ void inputs_keyboard_parameters::update_from_glfw_key(int key, int action)
 		ctrl = true;
 	if ((key == GLFW_KEY_LEFT_CONTROL || key == GLFW_KEY_RIGHT_CONTROL) && action == GLFW_RELEASE)
 		ctrl = false;
+
+	if (key == GLFW_KEY_SPACE && action == GLFW_PRESS)
+		space = true;
+	if (key == GLFW_KEY_SPACE && action == GLFW_RELEASE)
+		space = false;
 
 	// Up/Down/Left/Right
 	if (key == GLFW_KEY_UP) {
@@ -103,7 +108,7 @@ void inputs_keyboard_parameters::update_from_glfw_key(int key, int action)
 }
 
 inputs_keyboard_parameters::inputs_keyboard_parameters()
-	:shift(false), ctrl(false), up(false), down(false), right(false), left(false), w(false), a(false), s(false), d(false)
+	:shift(false), ctrl(false), space(false), up(false), down(false), right(false), left(false), w(false), a(false), s(false), d(false)
 {}
 
 

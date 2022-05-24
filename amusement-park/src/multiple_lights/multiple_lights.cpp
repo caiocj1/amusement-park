@@ -27,17 +27,8 @@ void compute_light_position(float t, scene_environment_with_multiple_lights& env
 {
 	// Adapt the position and color of the spotlight procedurally as a function of t
 
-	environment.spotlight_color[0] = { 1.0f, 0.0f, 0.0f };
-	environment.spotlight_position[0] = { std::cos(t), std::sin(t), 0.5 + 0.2 * std::cos(3 * t) };
-
-	environment.spotlight_color[1] = { 0.0f, 1.0f, 0.0f };
-	environment.spotlight_position[1] = { std::cos(0.5 * t + Pi / 2), std::sin(0.5 * t + Pi / 2), 0.5 + 0.2 * std::cos(2 * t) };
-
-	environment.spotlight_position[2] = { 0,0,1.05f };
-	environment.spotlight_color[2] = 2 * (std::cos(t) + 1.0f) / 2.0 * vec3(1, 1, 1);
-
-	environment.spotlight_position[3] = { 3 * std::cos(t), 3 * std::sin(t), 0.5 + 0.2 * std::cos(3 * t) };
-	environment.spotlight_color[3] = vec3((std::cos(t) + 1) / 2, 0, 1);
+	environment.spotlight_color[0] = { 1.0f, 0.9f, 0.1f };
+	environment.spotlight_position[0] = { 41.1f, 50.0f, -16.0f };
 }
 
 void light_shape_drawable::initialize(GLuint shader_multiple_lights)

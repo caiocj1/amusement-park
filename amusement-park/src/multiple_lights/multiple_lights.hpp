@@ -13,12 +13,12 @@
 struct scene_environment_with_multiple_lights : cgp::scene_environment_basic_camera_spherical_coords
 {
 	// Store position for 5 lights
-	std::array<cgp::vec3, 4> spotlight_position;
+	std::array<cgp::vec3, 1> spotlight_position;
 	// The (r,g,b) color of the 5 lights
-	std::array<cgp::vec3, 4> spotlight_color;
+	std::array<cgp::vec3, 1> spotlight_color;
 
 	// The characteristic attenuation of the light
-	float spotlight_falloff = 0.5f;
+	float spotlight_falloff = 0.005f;
 
 	// The characteristic attenuation due to the fog
 	float fog_falloff = 0.0001f;

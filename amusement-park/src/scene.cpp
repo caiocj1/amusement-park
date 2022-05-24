@@ -29,41 +29,16 @@ void scene_structure::update_camera()
 		environment.camera.center_of_rotation -= side_displacement;
 	if (keyboard.d)
 		environment.camera.center_of_rotation += side_displacement;
-	if (keyboard.ctrl)
+	if (keyboard.space)
 		environment.camera.center_of_rotation += upward_displacement;
 	if (keyboard.shift)
 		environment.camera.center_of_rotation -= upward_displacement;
 
-	/*if(keyboard.s)
-		camera.position_camera -= forward_displacement;
-	if (keyboard.a)
-		camera.position_camera -= side_displacement;
-	if (keyboard.d)
-		camera.position_camera += side_displacement;
-	if (keyboard.ctrl)
-		camera.position_camera += upward_displacement;
-	if (keyboard.shift)
-		camera.position_camera -= upward_displacement;*/
-
-
-	 /*The camera rotates if we press on the arrow keys
-	  The rotation is only applied to the roll and pitch degrees of freedom.*/
-	//float const pitch = 0.5f; // speed of the pitch
-	//float const roll = 0.7f; // speed of the roll
-	/*if (keyboard.up)
-		camera.manipulator_rotate_roll_pitch_yaw(0, pitch * dt, 0);
-	if (keyboard.down)
-		camera.manipulator_rotate_roll_pitch_yaw(0, -pitch * dt, 0);
-	if (keyboard.right)
-		camera.manipulator_rotate_roll_pitch_yaw(0, 0, -roll * dt);
-	if (keyboard.left)
-		camera.manipulator_rotate_roll_pitch_yaw(0, 0, roll * dt);*/
-
-	//environment.camera.manipulator_rotate_trackball({0,0}, inputs.mouse.position.previous-inputs.mouse.position.current);
 	float phi = -(inputs.mouse.position.previous - inputs.mouse.position.current)[0];
 	float theta = (inputs.mouse.position.previous - inputs.mouse.position.current)[1];
 
-	environment.camera.manipulator_rotate_spherical_coordinates(phi, theta);
+	if (fabs(phi) > 0.01 || fabs(theta) > 0.01)
+		environment.camera.manipulator_rotate_spherical_coordinates(phi, theta);
 }
 
 
@@ -222,7 +197,7 @@ void scene_structure::display()
 	draw(light_drawable, environment); // this is a helper function from multiple_lights (display all the spotlights as spheres) (*)-optionnal
 
 
-	hierarchy["light_cone_head"].transform.rotation *= rotation_transform::from_axis_angle({ 0, 0, 1 }, 500 * dt);
+	hierarchy["light_cone_head"].transform.rotation *= rotation_transform::from_axis_angle({ 0, 0, 1 }, 300 * dt);
 	hierarchy.update_local_to_global_coordinates();
 
 	display_semi_transparent();
