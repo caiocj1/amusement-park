@@ -14,9 +14,6 @@ using namespace cgp;
 
 helper_common_scene helper_common;
 
-bool gui_display_frame = true;
-bool gui_display_wireframe = false;
-
 scene_structure scene;
 
 GLFWwindow* standard_window_initialization(int width = 0, int height = 0);

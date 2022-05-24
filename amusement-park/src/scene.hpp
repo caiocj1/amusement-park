@@ -1,7 +1,8 @@
 #pragma once
 
 #include "cgp/cgp.hpp"
-#include "shadow_map.hpp"
+//#include "shadow_map.hpp"
+#include "multiple_lights/multiple_lights.hpp"
 #include "terrain.hpp"
 
 struct gui_parameters {
@@ -14,10 +15,10 @@ struct gui_parameters {
 struct scene_structure {
 
 	cgp::mesh_drawable global_frame;          // The standard global frame
-	scene_environment_shadow_map environment; // Standard environment controler
+	scene_environment_with_multiple_lights environment; // Standard environment controler
 	cgp::inputs_interaction_parameters inputs; // Storage for inputs status (mouse, keyboard, window dimension)
 
-	shadow_map_structure shadow_map;
+	//shadow_map_structure shadow_map;
 
 	cgp::timer_basic timer;
 
@@ -27,16 +28,24 @@ struct scene_structure {
 
 	light_shape_drawable light_drawable;
 
+	// -------------- Meshes
+
 	cgp::mesh water_mesh;
 	cgp::mesh water_mesh_init;
 
 	cgp::mesh_drawable terrain;
 	cgp::mesh_drawable water;
-	cgp::mesh_drawable sphere_light; //used to display the position of the light
 	cgp::mesh_drawable metal;
 	cgp::mesh_drawable lighthouse;
 	cgp::mesh_drawable cone;
 	cgp::mesh_drawable castle;
+
+	cgp::mesh_drawable out_light_cone1;
+	cgp::mesh_drawable out_light_cone2;
+	cgp::mesh_drawable mid_light_cone1;
+	cgp::mesh_drawable mid_light_cone2;
+	cgp::mesh_drawable in_light_cone1;
+	cgp::mesh_drawable in_light_cone2;
 
 	cgp::hierarchy_mesh_drawable hierarchy;
 
@@ -48,6 +57,8 @@ struct scene_structure {
 
 	void initialize();  // Standard initialization to be called before the animation loop
 	void display();     // The frame display to be called within the animation loop
+	void display_semi_transparent();
+
 	void display_gui(); // The display of the GUI, also called within the animation loop
 	void reset_mouse(GLFWwindow* window);
 
