@@ -1,1037 +1,1046 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\base\basic_types\basic_types.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\base\basic_types\basic_types.cpp">
       <Filter>cgp\base\basic_types</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\base\error\error.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\base\error\error.cpp">
       <Filter>cgp\base\error</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\base\rand\rand.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\base\rand\rand.cpp">
       <Filter>cgp\base\rand</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\base\string\string.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\base\string\string.cpp">
       <Filter>cgp\base\string</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\buffer\test\test_buffer.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\buffer\test\test_buffer.cpp">
       <Filter>cgp\containers\buffer\test</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\buffer_stack\special_types\special_types.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\buffer_stack\special_types\special_types.cpp">
       <Filter>cgp\containers\buffer_stack\special_types</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\buffer_stack\test\test_buffer_stack.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\buffer_stack\test\test_buffer_stack.cpp">
       <Filter>cgp\containers\buffer_stack\test</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\grid\test\test_grid.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\grid\test\test_grid.cpp">
       <Filter>cgp\containers\grid\test</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\grid_stack\grid_stack_2D\test\test_grid_stack_2D.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\grid_stack\grid_stack_2D\test\test_grid_stack_2D.cpp">
       <Filter>cgp\containers\grid_stack\grid_stack_2D\test</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\offset_grid\offset_grid.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\offset_grid\offset_grid.cpp">
       <Filter>cgp\containers\offset_grid</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\curve_drawable\curve_drawable.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\curve_drawable\curve_drawable.cpp">
       <Filter>cgp\display\drawable\curve_drawable</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\curve_dynamic_drawable\curve_dynamic_drawable.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\curve_dynamic_drawable\curve_dynamic_drawable.cpp">
       <Filter>cgp\display\drawable\curve_dynamic_drawable</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\hierarchy_mesh_drawable\hierarchy_mesh_drawable.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\hierarchy_mesh_drawable\hierarchy_mesh_drawable.cpp">
       <Filter>cgp\display\drawable\hierarchy_mesh_drawable</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\hierarchy_mesh_drawable\hierarchy_mesh_drawable_node\hierarchy_mesh_drawable_node.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\hierarchy_mesh_drawable\hierarchy_mesh_drawable_node\hierarchy_mesh_drawable_node.cpp">
       <Filter>cgp\display\drawable\hierarchy_mesh_drawable\hierarchy_mesh_drawable_node</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\mesh_drawable\mesh_drawable.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\mesh_drawable\mesh_drawable.cpp">
       <Filter>cgp\display\drawable\mesh_drawable</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\mesh_normal_drawable\mesh_normal_drawable.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\mesh_normal_drawable\mesh_normal_drawable.cpp">
       <Filter>cgp\display\drawable\mesh_normal_drawable</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\mesh_wireframe_drawable\mesh_wireframe_drawable.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\mesh_wireframe_drawable\mesh_wireframe_drawable.cpp">
       <Filter>cgp\display\drawable\mesh_wireframe_drawable</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\segments_drawable\segments_drawable.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\segments_drawable\segments_drawable.cpp">
       <Filter>cgp\display\drawable\segments_drawable</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\shading_parameters\shading_parameters.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\shading_parameters\shading_parameters.cpp">
       <Filter>cgp\display\drawable\shading_parameters</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\skybox_drawable\skybox_drawable.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\skybox_drawable\skybox_drawable.cpp">
       <Filter>cgp\display\drawable\skybox_drawable</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\spatial_domain_grid_drawable\spatial_domain_grid_drawable.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\spatial_domain_grid_drawable\spatial_domain_grid_drawable.cpp">
       <Filter>cgp\display\drawable\spatial_domain_grid_drawable</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\trajectory_drawable\trajectory_drawable.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\trajectory_drawable\trajectory_drawable.cpp">
       <Filter>cgp\display\drawable\trajectory_drawable</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\triangle_soup_drawable\triangle_soup_drawable.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\triangle_soup_drawable\triangle_soup_drawable.cpp">
       <Filter>cgp\display\drawable\triangle_soup_drawable</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\image\image.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\image\image.cpp">
       <Filter>cgp\display\image</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\opengl\debug\debug.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\opengl\debug\debug.cpp">
       <Filter>cgp\display\opengl\debug</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\opengl\helper\opengl_helper.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\opengl\helper\opengl_helper.cpp">
       <Filter>cgp\display\opengl\helper</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\opengl\shaders\shaders.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\opengl\shaders\shaders.cpp">
       <Filter>cgp\display\opengl\shaders</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\opengl\texture\texture.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\opengl\texture\texture.cpp">
       <Filter>cgp\display\opengl\texture</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\opengl\uniform\uniform.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\opengl\uniform\uniform.cpp">
       <Filter>cgp\display\opengl\uniform</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\window\window.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\window\window.cpp">
       <Filter>cgp\display\window</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\files\files.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\files\files.cpp">
       <Filter>cgp\files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\helper_common_scene\helper\helper.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\helper_common_scene\helper\helper.cpp">
       <Filter>cgp\helper_common_scene\helper</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\helper_common_scene\scene_environment_basic\scene_environment_basic.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\helper_common_scene\scene_environment_basic\scene_environment_basic.cpp">
       <Filter>cgp\helper_common_scene\scene_environment_basic</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\camera\camera_around_center\camera_around_center.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\camera\camera_around_center\camera_around_center.cpp">
       <Filter>cgp\interaction\camera\camera_around_center</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\camera\camera_base\camera_base.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\camera\camera_base\camera_base.cpp">
       <Filter>cgp\interaction\camera\camera_base</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\camera\camera_head\camera_head.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\camera\camera_head\camera_head.cpp">
       <Filter>cgp\interaction\camera\camera_head</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\camera\camera_projection\camera_projection.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\camera\camera_projection\camera_projection.cpp">
       <Filter>cgp\interaction\camera\camera_projection</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\camera\camera_spherical_coordinates\camera_spherical_coordinates.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\camera\camera_spherical_coordinates\camera_spherical_coordinates.cpp">
       <Filter>cgp\interaction\camera\camera_spherical_coordinates</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\camera\common_functions\common_functions.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\camera\common_functions\common_functions.cpp">
       <Filter>cgp\interaction\camera\common_functions</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\camera_standard_behavior\camera_standard_behavior.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\camera_standard_behavior\camera_standard_behavior.cpp">
       <Filter>cgp\interaction\camera_standard_behavior</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\glfw_inputs\glfw_inputs.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\glfw_inputs\glfw_inputs.cpp">
       <Filter>cgp\interaction\glfw_inputs</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\gui\gui.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\gui\gui.cpp">
       <Filter>cgp\interaction\gui</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\picking\picking_plane\picking_plane.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\picking\picking_plane\picking_plane.cpp">
       <Filter>cgp\interaction\picking\picking_plane</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\picking\picking_spheres\picking_spheres.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\picking\picking_spheres\picking_spheres.cpp">
       <Filter>cgp\interaction\picking\picking_spheres</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\picking\picking_structure\picking_structure.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\picking\picking_structure\picking_structure.cpp">
       <Filter>cgp\interaction\picking\picking_structure</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\timer\timer_basic\timer_basic.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\timer\timer_basic\timer_basic.cpp">
       <Filter>cgp\interaction\timer\timer_basic</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\timer\timer_event_periodic\timer_event_periodic.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\timer\timer_event_periodic\timer_event_periodic.cpp">
       <Filter>cgp\interaction\timer\timer_event_periodic</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\timer\timer_fps\timer_fps.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\timer\timer_fps\timer_fps.cpp">
       <Filter>cgp\interaction\timer\timer_fps</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\timer\timer_interval\timer_interval.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\timer\timer_interval\timer_interval.cpp">
       <Filter>cgp\interaction\timer\timer_interval</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\tracker\velocity_tracker\velocity_tracker.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\tracker\velocity_tracker\velocity_tracker.cpp">
       <Filter>cgp\interaction\tracker\velocity_tracker</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\affine\affine_rt\affine_rt.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\affine\affine_rt\affine_rt.cpp">
       <Filter>cgp\math\affine\affine_rt</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\affine\affine_rts\affine_rts.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\affine\affine_rts\affine_rts.cpp">
       <Filter>cgp\math\affine\affine_rts</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\frame\frame.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\frame\frame.cpp">
       <Filter>cgp\math\frame</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\interpolation\interpolation.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\interpolation\interpolation.cpp">
       <Filter>cgp\math\interpolation</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\matrix\matrix_stack\special_types\definition\special_types.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\matrix\matrix_stack\special_types\definition\special_types.cpp">
       <Filter>cgp\math\matrix\matrix_stack\special_types\definition</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\matrix\matrix_stack\special_types\mat4\mat4.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\matrix\matrix_stack\special_types\mat4\mat4.cpp">
       <Filter>cgp\math\matrix\matrix_stack\special_types\mat4</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\matrix\test\test_matrix_stack.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\matrix\test\test_matrix_stack.cpp">
       <Filter>cgp\math\matrix\test</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\projection\projection.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\projection\projection.cpp">
       <Filter>cgp\math\projection</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\quaternion\quaternion.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\quaternion\quaternion.cpp">
       <Filter>cgp\math\quaternion</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\rotation_transform\rotation_transform.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\rotation_transform\rotation_transform.cpp">
       <Filter>cgp\math\rotation_transform</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\rotation_transform\test\test_rotation.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\rotation_transform\test\test_rotation.cpp">
       <Filter>cgp\math\rotation_transform\test</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\vec_mat\test\test_vec_mat.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\vec_mat\test\test_vec_mat.cpp">
       <Filter>cgp\math\vec_mat\test</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\vec_mat\vec_mat.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\vec_mat\vec_mat.cpp">
       <Filter>cgp\math\vec_mat</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\curve\curve.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\curve\curve.cpp">
       <Filter>cgp\shape\curve</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\implicit\marching_cube\helper\marching_cubes_lut.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\implicit\marching_cube\helper\marching_cubes_lut.cpp">
       <Filter>cgp\shape\implicit\marching_cube\helper</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\implicit\marching_cube\marching_cube.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\implicit\marching_cube\marching_cube.cpp">
       <Filter>cgp\shape\implicit\marching_cube</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\intersection\intersection.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\intersection\intersection.cpp">
       <Filter>cgp\shape\intersection</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\mesh\loader\obj\obj.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\mesh\loader\obj\obj.cpp">
       <Filter>cgp\shape\mesh\loader\obj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\mesh\primitive\mesh_primitive.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\mesh\primitive\mesh_primitive.cpp">
       <Filter>cgp\shape\mesh\primitive</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\mesh\structure\mesh.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\mesh\structure\mesh.cpp">
       <Filter>cgp\shape\mesh\structure</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\noise\noise.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\noise\noise.cpp">
       <Filter>cgp\shape\noise</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\spatial_domain\spatial_domain_grid_3D\spatial_domain_grid_3D.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\spatial_domain\spatial_domain_grid_3D\spatial_domain_grid_3D.cpp">
       <Filter>cgp\shape\spatial_domain\spatial_domain_grid_3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\glad\src\glad.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\glad\src\glad.cpp">
       <Filter>third_party\src\glad\src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\imgui\imgui.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\imgui\imgui.cpp">
       <Filter>third_party\src\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\imgui\imgui_demo.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\imgui\imgui_demo.cpp">
       <Filter>third_party\src\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\imgui\imgui_draw.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\imgui\imgui_draw.cpp">
       <Filter>third_party\src\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\imgui\imgui_impl_glfw.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\imgui\imgui_impl_glfw.cpp">
       <Filter>third_party\src\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\imgui\imgui_impl_opengl3.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\imgui\imgui_impl_opengl3.cpp">
       <Filter>third_party\src\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\imgui\imgui_widgets.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\imgui\imgui_widgets.cpp">
       <Filter>third_party\src\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\jpeg\jpgd.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\jpeg\jpgd.cpp">
       <Filter>third_party\src\jpeg</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\jpeg\jpge.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\jpeg\jpge.cpp">
       <Filter>third_party\src\jpeg</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\lodepng\lodepng.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\lodepng\lodepng.cpp">
       <Filter>third_party\src\lodepng</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\simplexnoise\simplexnoise1234.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\simplexnoise\simplexnoise1234.cpp">
       <Filter>third_party\src\simplexnoise</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\src\main.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\amusement-park\src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\src\scene.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\amusement-park\src\scene.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\src\shadow_map.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\amusement-park\src\shadow_map.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\src\terrain.cpp">
+    <ClCompile Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\amusement-park\src\terrain.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\base\base.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\base\base.hpp">
       <Filter>cgp\base</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\base\basic_types\basic_types.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\base\basic_types\basic_types.hpp">
       <Filter>cgp\base\basic_types</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\base\error\error.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\base\error\error.hpp">
       <Filter>cgp\base\error</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\base\rand\rand.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\base\rand\rand.hpp">
       <Filter>cgp\base\rand</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\base\stl\stl.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\base\stl\stl.hpp">
       <Filter>cgp\base\stl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\base\string\string.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\base\string\string.hpp">
       <Filter>cgp\base\string</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\base\types\types.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\base\types\types.hpp">
       <Filter>cgp\base\types</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\cgp.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\cgp.hpp">
       <Filter>cgp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\buffer\buffer.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\buffer\buffer.hpp">
       <Filter>cgp\containers\buffer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\buffer\test\test_buffer.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\buffer\test\test_buffer.hpp">
       <Filter>cgp\containers\buffer\test</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\buffer_stack\buffer_stack.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\buffer_stack\buffer_stack.hpp">
       <Filter>cgp\containers\buffer_stack</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\buffer_stack\implementation\buffer_stack.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\buffer_stack\implementation\buffer_stack.hpp">
       <Filter>cgp\containers\buffer_stack\implementation</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\buffer_stack\implementation\buffer_stack2.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\buffer_stack\implementation\buffer_stack2.hpp">
       <Filter>cgp\containers\buffer_stack\implementation</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\buffer_stack\implementation\buffer_stack3.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\buffer_stack\implementation\buffer_stack3.hpp">
       <Filter>cgp\containers\buffer_stack\implementation</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\buffer_stack\implementation\buffer_stack4.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\buffer_stack\implementation\buffer_stack4.hpp">
       <Filter>cgp\containers\buffer_stack\implementation</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\buffer_stack\special_types\special_types.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\buffer_stack\special_types\special_types.hpp">
       <Filter>cgp\containers\buffer_stack\special_types</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\buffer_stack\test\test_buffer_stack.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\buffer_stack\test\test_buffer_stack.hpp">
       <Filter>cgp\containers\buffer_stack\test</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\containers.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\containers.hpp">
       <Filter>cgp\containers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\grid\grid.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\grid\grid.hpp">
       <Filter>cgp\containers\grid</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\grid\grid_2D\grid_2D.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\grid\grid_2D\grid_2D.hpp">
       <Filter>cgp\containers\grid\grid_2D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\grid\grid_3D\grid_3D.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\grid\grid_3D\grid_3D.hpp">
       <Filter>cgp\containers\grid\grid_3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\grid\test\test_grid.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\grid\test\test_grid.hpp">
       <Filter>cgp\containers\grid\test</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\grid_stack\grid_stack.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\grid_stack\grid_stack.hpp">
       <Filter>cgp\containers\grid_stack</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\grid_stack\grid_stack_2D\grid_stack_2D.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\grid_stack\grid_stack_2D\grid_stack_2D.hpp">
       <Filter>cgp\containers\grid_stack\grid_stack_2D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\grid_stack\grid_stack_2D\test\test_grid_stack_2D.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\grid_stack\grid_stack_2D\test\test_grid_stack_2D.hpp">
       <Filter>cgp\containers\grid_stack\grid_stack_2D\test</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\containers\offset_grid\offset_grid.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\containers\offset_grid\offset_grid.hpp">
       <Filter>cgp\containers\offset_grid</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\display.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\display.hpp">
       <Filter>cgp\display</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\curve_drawable\curve_drawable.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\curve_drawable\curve_drawable.hpp">
       <Filter>cgp\display\drawable\curve_drawable</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\curve_dynamic_drawable\curve_dynamic_drawable.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\curve_dynamic_drawable\curve_dynamic_drawable.hpp">
       <Filter>cgp\display\drawable\curve_dynamic_drawable</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\drawable.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\drawable.hpp">
       <Filter>cgp\display\drawable</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\hierarchy_mesh_drawable\hierarchy_mesh_drawable.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\hierarchy_mesh_drawable\hierarchy_mesh_drawable.hpp">
       <Filter>cgp\display\drawable\hierarchy_mesh_drawable</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\hierarchy_mesh_drawable\hierarchy_mesh_drawable_node\hierarchy_mesh_drawable_node.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\hierarchy_mesh_drawable\hierarchy_mesh_drawable_node\hierarchy_mesh_drawable_node.hpp">
       <Filter>cgp\display\drawable\hierarchy_mesh_drawable\hierarchy_mesh_drawable_node</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\mesh_drawable\mesh_drawable.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\mesh_drawable\mesh_drawable.hpp">
       <Filter>cgp\display\drawable\mesh_drawable</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\mesh_normal_drawable\mesh_normal_drawable.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\mesh_normal_drawable\mesh_normal_drawable.hpp">
       <Filter>cgp\display\drawable\mesh_normal_drawable</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\mesh_wireframe_drawable\mesh_wireframe_drawable.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\mesh_wireframe_drawable\mesh_wireframe_drawable.hpp">
       <Filter>cgp\display\drawable\mesh_wireframe_drawable</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\segments_drawable\segments_drawable.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\segments_drawable\segments_drawable.hpp">
       <Filter>cgp\display\drawable\segments_drawable</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\shading_parameters\shading_parameters.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\shading_parameters\shading_parameters.hpp">
       <Filter>cgp\display\drawable\shading_parameters</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\skybox_drawable\skybox_drawable.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\skybox_drawable\skybox_drawable.hpp">
       <Filter>cgp\display\drawable\skybox_drawable</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\spatial_domain_grid_drawable\spatial_domain_grid_drawable.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\spatial_domain_grid_drawable\spatial_domain_grid_drawable.hpp">
       <Filter>cgp\display\drawable\spatial_domain_grid_drawable</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\trajectory_drawable\trajectory_drawable.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\trajectory_drawable\trajectory_drawable.hpp">
       <Filter>cgp\display\drawable\trajectory_drawable</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\drawable\triangle_soup_drawable\triangle_soup_drawable.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\drawable\triangle_soup_drawable\triangle_soup_drawable.hpp">
       <Filter>cgp\display\drawable\triangle_soup_drawable</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\image\image.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\image\image.hpp">
       <Filter>cgp\display\image</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\opengl\debug\debug.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\opengl\debug\debug.hpp">
       <Filter>cgp\display\opengl\debug</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\opengl\glad\glad.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\opengl\glad\glad.hpp">
       <Filter>cgp\display\opengl\glad</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\opengl\helper\opengl_helper.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\opengl\helper\opengl_helper.hpp">
       <Filter>cgp\display\opengl\helper</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\opengl\opengl.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\opengl\opengl.hpp">
       <Filter>cgp\display\opengl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\opengl\shaders\shaders.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\opengl\shaders\shaders.hpp">
       <Filter>cgp\display\opengl\shaders</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\opengl\texture\texture.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\opengl\texture\texture.hpp">
       <Filter>cgp\display\opengl\texture</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\opengl\uniform\uniform.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\opengl\uniform\uniform.hpp">
       <Filter>cgp\display\opengl\uniform</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\display\window\window.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\display\window\window.hpp">
       <Filter>cgp\display\window</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\files\files.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\files\files.hpp">
       <Filter>cgp\files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\helper_common_scene\helper\helper.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\helper_common_scene\helper\helper.hpp">
       <Filter>cgp\helper_common_scene\helper</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\helper_common_scene\helper_common_scene.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\helper_common_scene\helper_common_scene.hpp">
       <Filter>cgp\helper_common_scene</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\helper_common_scene\scene_environment_basic\scene_environment_basic.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\helper_common_scene\scene_environment_basic\scene_environment_basic.hpp">
       <Filter>cgp\helper_common_scene\scene_environment_basic</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\camera\camera.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\camera\camera.hpp">
       <Filter>cgp\interaction\camera</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\camera\camera_around_center\camera_around_center.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\camera\camera_around_center\camera_around_center.hpp">
       <Filter>cgp\interaction\camera\camera_around_center</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\camera\camera_base\camera_base.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\camera\camera_base\camera_base.hpp">
       <Filter>cgp\interaction\camera\camera_base</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\camera\camera_head\camera_head.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\camera\camera_head\camera_head.hpp">
       <Filter>cgp\interaction\camera\camera_head</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\camera\camera_projection\camera_projection.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\camera\camera_projection\camera_projection.hpp">
       <Filter>cgp\interaction\camera\camera_projection</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\camera\camera_spherical_coordinates\camera_spherical_coordinates.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\camera\camera_spherical_coordinates\camera_spherical_coordinates.hpp">
       <Filter>cgp\interaction\camera\camera_spherical_coordinates</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\camera\common_functions\common_functions.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\camera\common_functions\common_functions.hpp">
       <Filter>cgp\interaction\camera\common_functions</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\camera_standard_behavior\camera_standard_behavior.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\camera_standard_behavior\camera_standard_behavior.hpp">
       <Filter>cgp\interaction\camera_standard_behavior</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\glfw_inputs\glfw_inputs.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\glfw_inputs\glfw_inputs.hpp">
       <Filter>cgp\interaction\glfw_inputs</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\gui\gui.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\gui\gui.hpp">
       <Filter>cgp\interaction\gui</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\interaction.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\interaction.hpp">
       <Filter>cgp\interaction</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\picking\picking.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\picking\picking.hpp">
       <Filter>cgp\interaction\picking</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\picking\picking_plane\picking_plane.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\picking\picking_plane\picking_plane.hpp">
       <Filter>cgp\interaction\picking\picking_plane</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\picking\picking_spheres\picking_spheres.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\picking\picking_spheres\picking_spheres.hpp">
       <Filter>cgp\interaction\picking\picking_spheres</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\picking\picking_structure\picking_structure.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\picking\picking_structure\picking_structure.hpp">
       <Filter>cgp\interaction\picking\picking_structure</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\timer\timer.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\timer\timer.hpp">
       <Filter>cgp\interaction\timer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\timer\timer_basic\timer_basic.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\timer\timer_basic\timer_basic.hpp">
       <Filter>cgp\interaction\timer\timer_basic</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\timer\timer_event_periodic\timer_event_periodic.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\timer\timer_event_periodic\timer_event_periodic.hpp">
       <Filter>cgp\interaction\timer\timer_event_periodic</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\timer\timer_fps\timer_fps.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\timer\timer_fps\timer_fps.hpp">
       <Filter>cgp\interaction\timer\timer_fps</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\timer\timer_interval\timer_interval.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\timer\timer_interval\timer_interval.hpp">
       <Filter>cgp\interaction\timer\timer_interval</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\tracker\tracker.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\tracker\tracker.hpp">
       <Filter>cgp\interaction\tracker</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\interaction\tracker\velocity_tracker\velocity_tracker.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\interaction\tracker\velocity_tracker\velocity_tracker.hpp">
       <Filter>cgp\interaction\tracker\velocity_tracker</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\affine\affine.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\affine\affine.hpp">
       <Filter>cgp\math\affine</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\affine\affine_rt\affine_rt.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\affine\affine_rt\affine_rt.hpp">
       <Filter>cgp\math\affine\affine_rt</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\affine\affine_rts\affine_rts.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\affine\affine_rts\affine_rts.hpp">
       <Filter>cgp\math\affine\affine_rts</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\frame\frame.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\frame\frame.hpp">
       <Filter>cgp\math\frame</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\interpolation\interpolation.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\interpolation\interpolation.hpp">
       <Filter>cgp\math\interpolation</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\math.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\math.hpp">
       <Filter>cgp\math</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\matrix\matrix.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\matrix\matrix.hpp">
       <Filter>cgp\math\matrix</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\matrix\matrix_stack\matrix_stack.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\matrix\matrix_stack\matrix_stack.hpp">
       <Filter>cgp\math\matrix\matrix_stack</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\matrix\matrix_stack\special_types\definition\special_types.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\matrix\matrix_stack\special_types\definition\special_types.hpp">
       <Filter>cgp\math\matrix\matrix_stack\special_types\definition</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\matrix\matrix_stack\special_types\mat4\mat4.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\matrix\matrix_stack\special_types\mat4\mat4.hpp">
       <Filter>cgp\math\matrix\matrix_stack\special_types\mat4</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\matrix\matrix_stack\special_types\special_types.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\matrix\matrix_stack\special_types\special_types.hpp">
       <Filter>cgp\math\matrix\matrix_stack\special_types</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\matrix\test\test_matrix_stack.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\matrix\test\test_matrix_stack.hpp">
       <Filter>cgp\math\matrix\test</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\projection\projection.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\projection\projection.hpp">
       <Filter>cgp\math\projection</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\quaternion\quaternion.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\quaternion\quaternion.hpp">
       <Filter>cgp\math\quaternion</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\rotation_transform\rotation_transform.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\rotation_transform\rotation_transform.hpp">
       <Filter>cgp\math\rotation_transform</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\rotation_transform\test\test_rotation.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\rotation_transform\test\test_rotation.hpp">
       <Filter>cgp\math\rotation_transform\test</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\vec_mat\test\test_vec_mat.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\vec_mat\test\test_vec_mat.hpp">
       <Filter>cgp\math\vec_mat\test</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\math\vec_mat\vec_mat.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\math\vec_mat\vec_mat.hpp">
       <Filter>cgp\math\vec_mat</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\curve\curve.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\curve\curve.hpp">
       <Filter>cgp\shape\curve</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\implicit\implicit.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\implicit\implicit.hpp">
       <Filter>cgp\shape\implicit</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\implicit\marching_cube\helper\marching_cubes_lut.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\implicit\marching_cube\helper\marching_cubes_lut.hpp">
       <Filter>cgp\shape\implicit\marching_cube\helper</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\implicit\marching_cube\marching_cube.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\implicit\marching_cube\marching_cube.hpp">
       <Filter>cgp\shape\implicit\marching_cube</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\intersection\intersection.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\intersection\intersection.hpp">
       <Filter>cgp\shape\intersection</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\mesh\loader\loader.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\mesh\loader\loader.hpp">
       <Filter>cgp\shape\mesh\loader</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\mesh\loader\obj\obj.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\mesh\loader\obj\obj.hpp">
       <Filter>cgp\shape\mesh\loader\obj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\mesh\mesh.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\mesh\mesh.hpp">
       <Filter>cgp\shape\mesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\mesh\primitive\mesh_primitive.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\mesh\primitive\mesh_primitive.hpp">
       <Filter>cgp\shape\mesh\primitive</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\mesh\structure\mesh.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\mesh\structure\mesh.hpp">
       <Filter>cgp\shape\mesh\structure</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\noise\noise.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\noise\noise.hpp">
       <Filter>cgp\shape\noise</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\shape.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\shape.hpp">
       <Filter>cgp\shape</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\spatial_domain\spatial_domain.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\spatial_domain\spatial_domain.hpp">
       <Filter>cgp\shape\spatial_domain</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\cgp\shape\spatial_domain\spatial_domain_grid_3D\spatial_domain_grid_3D.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\cgp\shape\spatial_domain\spatial_domain_grid_3D\spatial_domain_grid_3D.hpp">
       <Filter>cgp\shape\spatial_domain\spatial_domain_grid_3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\glad\include\glad\glad.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\glad\include\glad\glad.hpp">
       <Filter>third_party\src\glad\include\glad</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\imgui\imconfig.h">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\imgui\imconfig.h">
       <Filter>third_party\src\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\imgui\imgui.h">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\imgui\imgui.h">
       <Filter>third_party\src\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\imgui\imgui_impl_glfw.h">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\imgui\imgui_impl_glfw.h">
       <Filter>third_party\src\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\imgui\imgui_impl_opengl3.h">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\imgui\imgui_impl_opengl3.h">
       <Filter>third_party\src\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\imgui\imgui_internal.h">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\imgui\imgui_internal.h">
       <Filter>third_party\src\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\imgui\imstb_rectpack.h">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\imgui\imstb_rectpack.h">
       <Filter>third_party\src\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\imgui\imstb_textedit.h">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\imgui\imstb_textedit.h">
       <Filter>third_party\src\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\imgui\imstb_truetype.h">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\imgui\imstb_truetype.h">
       <Filter>third_party\src\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\jpeg\jpgd.h">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\jpeg\jpgd.h">
       <Filter>third_party\src\jpeg</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\jpeg\jpge.h">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\jpeg\jpge.h">
       <Filter>third_party\src\jpeg</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\lodepng\lodepng.h">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\lodepng\lodepng.h">
       <Filter>third_party\src\lodepng</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\library\third_party\src\simplexnoise\simplexnoise1234.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\library\third_party\src\simplexnoise\simplexnoise1234.hpp">
       <Filter>third_party\src\simplexnoise</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\src\scene.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\amusement-park\src\scene.hpp">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\src\shadow_map.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\amusement-park\src\shadow_map.hpp">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\src\terrain.hpp">
+    <ClInclude Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\amusement-park\src\terrain.hpp">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\amusement-park\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\shaders\mesh\frag.glsl">
+    <None Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\amusement-park\shaders\mesh\frag.glsl">
       <Filter>shaders\mesh</Filter>
     </None>
-    <None Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\shaders\mesh\vert.glsl">
+    <None Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\amusement-park\shaders\mesh\vert.glsl">
       <Filter>shaders\mesh</Filter>
     </None>
-    <None Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\shaders\shadow_map\generate_depth_map\frag.glsl">
+    <None Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\amusement-park\shaders\shadow_map\generate_depth_map\frag.glsl">
       <Filter>shaders\shadow_map\generate_depth_map</Filter>
     </None>
-    <None Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\shaders\shadow_map\generate_depth_map\vert.glsl">
+    <None Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\amusement-park\shaders\shadow_map\generate_depth_map\vert.glsl">
       <Filter>shaders\shadow_map\generate_depth_map</Filter>
     </None>
-    <None Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\shaders\shadow_map\use_shadows\frag.glsl">
+    <None Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\amusement-park\shaders\shadow_map\use_shadows\frag.glsl">
       <Filter>shaders\shadow_map\use_shadows</Filter>
     </None>
-    <None Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\shaders\shadow_map\use_shadows\vert.glsl">
+    <None Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\amusement-park\shaders\shadow_map\use_shadows\vert.glsl">
       <Filter>shaders\shadow_map\use_shadows</Filter>
     </None>
-    <None Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\shaders\single_color\frag.glsl">
+    <None Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\amusement-park\shaders\single_color\frag.glsl">
       <Filter>shaders\single_color</Filter>
     </None>
-    <None Include="C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\shaders\single_color\vert.glsl">
+    <None Include="C:\Users\caioj\Desktop\Jordan\France\X\2A_21_22\P3\INF443\amusement-park\amusement-park\shaders\single_color\vert.glsl">
       <Filter>shaders\single_color</Filter>
+    </None>
+    <None Include="..\shaders\mesh_lights\frag.glsl">
+      <Filter>shaders\mesh_lights</Filter>
+    </None>
+    <None Include="..\shaders\mesh_lights\vert.glsl">
+      <Filter>shaders\mesh_lights</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="cgp">
-      <UniqueIdentifier>{3B5EF9FD-C0A3-3783-9CB5-A9D90B05FBBC}</UniqueIdentifier>
+      <UniqueIdentifier>{A200F698-B126-35A5-9FD8-7DB92F37AD19}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\base">
-      <UniqueIdentifier>{EF40312D-5358-35CD-99E8-06AE281E969E}</UniqueIdentifier>
+      <UniqueIdentifier>{CE8A0E00-ED36-3E81-A71A-3B192B3AF2E9}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\base\basic_types">
-      <UniqueIdentifier>{7F2440C6-D358-3D45-809B-1DD005A71C86}</UniqueIdentifier>
+      <UniqueIdentifier>{CB6019CA-3EA8-33B5-8CC1-7FA10CBA3460}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\base\error">
-      <UniqueIdentifier>{BF1A0AD2-355F-306C-A721-AA746F54C5F1}</UniqueIdentifier>
+      <UniqueIdentifier>{9B7E3851-8413-3B20-9D08-86DBB5C1DD21}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\base\rand">
-      <UniqueIdentifier>{75E24D02-4793-31BE-81F8-0799A36A929E}</UniqueIdentifier>
+      <UniqueIdentifier>{579672D2-A057-39C3-A590-8F1BD948F28C}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\base\stl">
-      <UniqueIdentifier>{8D0C8AD8-9188-3553-A458-4BB886D34AEE}</UniqueIdentifier>
+      <UniqueIdentifier>{C0A71C8F-6E7A-3D7F-9450-17DE5185F627}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\base\string">
-      <UniqueIdentifier>{0D74C56A-97CC-3D40-934C-C958F6339278}</UniqueIdentifier>
+      <UniqueIdentifier>{20DDE4D4-B1EC-380C-9652-9BB38835AFBA}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\base\types">
-      <UniqueIdentifier>{D00F7F71-3FF4-3578-8681-EA2D4A886416}</UniqueIdentifier>
+      <UniqueIdentifier>{C338972C-17D6-31CD-838A-3ECBE50850F0}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\containers">
-      <UniqueIdentifier>{26B9F262-C96E-3E64-A424-F77368F89E76}</UniqueIdentifier>
+      <UniqueIdentifier>{BE2E6CB7-27BD-37E5-B920-3EFA96002055}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\containers\buffer">
-      <UniqueIdentifier>{147A3F95-B7DF-3E00-92E6-4FE382A1E825}</UniqueIdentifier>
+      <UniqueIdentifier>{895E326B-00C4-33D6-95D6-3D37A9776A29}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\containers\buffer\test">
-      <UniqueIdentifier>{4D4FB401-027A-3AE9-A2A2-D3BC39EC3DAA}</UniqueIdentifier>
+      <UniqueIdentifier>{56DD001D-12C1-3F1E-99D1-3DD6257FDAFB}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\containers\buffer_stack">
-      <UniqueIdentifier>{1AA2160B-C3E7-39AB-AA84-9734A23F88FE}</UniqueIdentifier>
+      <UniqueIdentifier>{E2BEE246-FD73-3744-A508-A696CDF376AC}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\containers\buffer_stack\implementation">
-      <UniqueIdentifier>{88CD0EB3-BCEB-3529-B318-0A67808A3F61}</UniqueIdentifier>
+      <UniqueIdentifier>{3DFF710A-0D77-3DF0-A24D-A5B08FE519C6}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\containers\buffer_stack\special_types">
-      <UniqueIdentifier>{1B5510DB-519D-3814-AFD4-B2F425E2BDBE}</UniqueIdentifier>
+      <UniqueIdentifier>{117F0387-3A66-36EE-9AF0-2C475E75E81D}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\containers\buffer_stack\test">
-      <UniqueIdentifier>{849303AE-40CF-35CC-9AC4-3C216C82699B}</UniqueIdentifier>
+      <UniqueIdentifier>{89A91287-FEA7-3646-86E4-45E91BFB725B}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\containers\grid">
-      <UniqueIdentifier>{BCA12EA3-2146-3849-B15B-56F2A69B118B}</UniqueIdentifier>
+      <UniqueIdentifier>{651E85FF-220D-3831-910C-2B9D01E6B489}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\containers\grid\grid_2D">
-      <UniqueIdentifier>{201AAE10-C04B-367F-91A0-AF7E0E8AA7C7}</UniqueIdentifier>
+      <UniqueIdentifier>{7BEC6BFA-D82B-3876-A6B3-A39388DAED68}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\containers\grid\grid_3D">
-      <UniqueIdentifier>{35C9C24E-CE2F-3C6C-BB2C-EFE477A0CC3F}</UniqueIdentifier>
+      <UniqueIdentifier>{FE663EF0-70D1-3A03-915F-47BEA7977110}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\containers\grid\test">
-      <UniqueIdentifier>{E9AA189E-9272-3747-94B5-A7FE71013434}</UniqueIdentifier>
+      <UniqueIdentifier>{01359114-647E-320F-AABF-384BD3876D77}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\containers\grid_stack">
-      <UniqueIdentifier>{5864FA23-10BF-30E8-AD3F-003E0BAEF7D7}</UniqueIdentifier>
+      <UniqueIdentifier>{8F2F02F8-F548-3AC1-963B-1B6F6D2CEAB1}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\containers\grid_stack\grid_stack_2D">
-      <UniqueIdentifier>{3E1BC03B-D3AB-3836-B75B-13BCD0F36C07}</UniqueIdentifier>
+      <UniqueIdentifier>{B3258985-25DE-3EB5-9D79-425E76A8FA71}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\containers\grid_stack\grid_stack_2D\test">
-      <UniqueIdentifier>{7D16CFBD-626F-3212-B9AC-7C97DC6B54CA}</UniqueIdentifier>
+      <UniqueIdentifier>{EF066FBC-042F-386A-86F3-52AB8787F17A}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\containers\offset_grid">
-      <UniqueIdentifier>{68EA0569-644F-3EDC-B078-5CA863192EF3}</UniqueIdentifier>
+      <UniqueIdentifier>{E4047882-D6D7-3D45-ADF7-6264D17BA516}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display">
-      <UniqueIdentifier>{1B7E2E7F-6108-358B-B3BB-6AB78FCED74A}</UniqueIdentifier>
+      <UniqueIdentifier>{1B7A8E6D-0C0D-34BD-A8BD-F4775E9D95E1}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\drawable">
-      <UniqueIdentifier>{699BA818-32BD-33BC-80C4-AA18CC1B16E1}</UniqueIdentifier>
+      <UniqueIdentifier>{34997882-6679-3B92-8C29-C15F6D0171A7}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\drawable\curve_drawable">
-      <UniqueIdentifier>{CB129E80-FEF3-3C12-940B-6743C0C2222B}</UniqueIdentifier>
+      <UniqueIdentifier>{1CA12933-3B00-39DD-8B28-54D2B81C7BA5}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\drawable\curve_dynamic_drawable">
-      <UniqueIdentifier>{17B0CB90-FA74-3746-9ACA-CC24AC635B5B}</UniqueIdentifier>
+      <UniqueIdentifier>{26941BA7-E286-31D5-8105-F5CCE5837429}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\drawable\hierarchy_mesh_drawable">
-      <UniqueIdentifier>{75E4AA06-0FE7-338B-AEFF-1F9825F45BF6}</UniqueIdentifier>
+      <UniqueIdentifier>{DBD2D8CB-3136-3B02-B6B0-CF33924A595E}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\drawable\hierarchy_mesh_drawable\hierarchy_mesh_drawable_node">
-      <UniqueIdentifier>{1CA16A81-5B7F-3329-905E-1D61506E5D6A}</UniqueIdentifier>
+      <UniqueIdentifier>{3AA1C61C-56C3-3E75-BA85-5063CF48D21C}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\drawable\mesh_drawable">
-      <UniqueIdentifier>{BCD5D864-9640-316A-90E7-3F3C3AA5066C}</UniqueIdentifier>
+      <UniqueIdentifier>{D2A83E2C-1867-3E14-8160-79B04F7C1916}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\drawable\mesh_normal_drawable">
-      <UniqueIdentifier>{116BF225-1557-36A7-BCC4-A37820A26DCF}</UniqueIdentifier>
+      <UniqueIdentifier>{8342C5E4-C204-34C8-BA2E-4DF0800DA310}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\drawable\mesh_wireframe_drawable">
-      <UniqueIdentifier>{36AC65CA-8D59-352E-9C8C-133C757D7AAA}</UniqueIdentifier>
+      <UniqueIdentifier>{5586B337-6BA9-321C-9516-AF232C8CF283}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\drawable\segments_drawable">
-      <UniqueIdentifier>{BFCAA294-D841-3078-ABFB-F7216C5C4D19}</UniqueIdentifier>
+      <UniqueIdentifier>{D97A3E3C-257F-3390-9A2B-562E202427E7}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\drawable\shading_parameters">
-      <UniqueIdentifier>{105EEDA2-4D74-3CFF-8D63-02AFF71ED990}</UniqueIdentifier>
+      <UniqueIdentifier>{271FB6B1-AC31-3672-8F1B-92E380E53613}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\drawable\skybox_drawable">
-      <UniqueIdentifier>{056476E4-4A8D-3FC6-998D-2E31A30EFFDA}</UniqueIdentifier>
+      <UniqueIdentifier>{16B4EA2D-67CA-3994-A764-527864103A33}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\drawable\spatial_domain_grid_drawable">
-      <UniqueIdentifier>{3400B43A-33E3-3997-AA23-8633F8BD0C13}</UniqueIdentifier>
+      <UniqueIdentifier>{9C3D995A-697B-3C9E-B095-1791883DF083}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\drawable\trajectory_drawable">
-      <UniqueIdentifier>{D15727F8-4842-373C-BB34-9E052A723C28}</UniqueIdentifier>
+      <UniqueIdentifier>{FC778AB0-3D2C-37CF-B535-FBB5EAF46389}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\drawable\triangle_soup_drawable">
-      <UniqueIdentifier>{8BBBA755-B10D-3A36-B5AA-4C554D6993C6}</UniqueIdentifier>
+      <UniqueIdentifier>{5D43CBF2-133A-32AF-8893-1B03D718A592}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\image">
-      <UniqueIdentifier>{F3EF99F0-300E-3B4C-AFE6-810C472C5CA1}</UniqueIdentifier>
+      <UniqueIdentifier>{E3FA9D4D-E145-39F9-91F8-C03AB939D822}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\opengl">
-      <UniqueIdentifier>{C2FBF148-496C-38D8-8707-4E7D84487A86}</UniqueIdentifier>
+      <UniqueIdentifier>{E62DBC64-C13D-33E4-9BE4-B2EE7FC54928}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\opengl\debug">
-      <UniqueIdentifier>{CBFCCCEF-5B43-34D7-9B73-FBE5422BC205}</UniqueIdentifier>
+      <UniqueIdentifier>{F929A423-5516-3A5E-989A-34910E6BDE5D}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\opengl\glad">
-      <UniqueIdentifier>{3EB7B550-D591-30D7-BCC3-75559EF849BD}</UniqueIdentifier>
+      <UniqueIdentifier>{C5D42152-501B-33F9-AB87-CDBF1436976D}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\opengl\helper">
-      <UniqueIdentifier>{B5E4B5F1-50D3-3822-82FC-97C058DFF2A8}</UniqueIdentifier>
+      <UniqueIdentifier>{C4399360-DAE5-3278-9AD2-C72064E379B5}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\opengl\shaders">
-      <UniqueIdentifier>{ADCFAD39-0BB9-32AA-9624-B84E7BF1E4B4}</UniqueIdentifier>
+      <UniqueIdentifier>{C6D6D170-6146-3C50-ADE3-ADD8D5FC8C4D}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\opengl\texture">
-      <UniqueIdentifier>{6F25BC86-FA60-3866-985C-A99F01D7CCAF}</UniqueIdentifier>
+      <UniqueIdentifier>{3CC9C127-3B42-3C4C-9AA7-97AA5062C971}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\opengl\uniform">
-      <UniqueIdentifier>{15C6AB33-DCB8-3A79-861B-3D0ADA8CC669}</UniqueIdentifier>
+      <UniqueIdentifier>{4CC829EB-1148-36AD-B1E1-F117FFC32731}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\display\window">
-      <UniqueIdentifier>{64F40238-80FA-32A0-9DB6-986DB6C319F8}</UniqueIdentifier>
+      <UniqueIdentifier>{C2FA9936-E3D2-3EB0-B004-A5D897517857}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\files">
-      <UniqueIdentifier>{5C18316F-F5BE-3B3A-A5C8-3D6D5D69D3BC}</UniqueIdentifier>
+      <UniqueIdentifier>{E8929F70-C59D-386B-99A4-98ABC91CE9AC}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\helper_common_scene">
-      <UniqueIdentifier>{E52A4107-9EDF-38B3-9C7B-A188E969D251}</UniqueIdentifier>
+      <UniqueIdentifier>{10915FE6-2DAD-37B5-9D08-0AF429222110}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\helper_common_scene\helper">
-      <UniqueIdentifier>{E8E7CE5B-BFC0-38D4-BFE7-1A9F24F8715E}</UniqueIdentifier>
+      <UniqueIdentifier>{22B69A48-2BC4-35EE-A574-2F9829D88618}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\helper_common_scene\scene_environment_basic">
-      <UniqueIdentifier>{5AA0D16C-B59A-3879-B12F-A25562FD90D5}</UniqueIdentifier>
+      <UniqueIdentifier>{BE08BC5B-58FB-391B-8764-FC21C5DF8260}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction">
-      <UniqueIdentifier>{AB65141E-6F8E-3369-9C4C-737CAB9FFE99}</UniqueIdentifier>
+      <UniqueIdentifier>{AB298126-2B40-330D-B546-56B39DCE0623}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\camera">
-      <UniqueIdentifier>{751DA808-B1B6-3937-97AE-25EC91528BEE}</UniqueIdentifier>
+      <UniqueIdentifier>{C447C6E8-3089-3A5E-80A3-FCB65E0C4E67}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\camera\camera_around_center">
-      <UniqueIdentifier>{DFB0A522-D23E-3F34-9048-B986A20014DC}</UniqueIdentifier>
+      <UniqueIdentifier>{B237B4AC-0610-3E7F-9DEB-DC6031387115}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\camera\camera_base">
-      <UniqueIdentifier>{876E82BC-0D79-3A11-A983-3B300A04174E}</UniqueIdentifier>
+      <UniqueIdentifier>{454314DC-1421-3121-BF05-0DA423899533}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\camera\camera_head">
-      <UniqueIdentifier>{67FFA41F-ADA0-30A7-99A9-7EFBC2A3BC96}</UniqueIdentifier>
+      <UniqueIdentifier>{7B881038-E931-3BB4-A4F1-331A727523F8}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\camera\camera_projection">
-      <UniqueIdentifier>{9723BFB9-7BAC-3148-AB91-19DFCDB114F5}</UniqueIdentifier>
+      <UniqueIdentifier>{9D1603BD-5400-328B-A67B-D0C0B2E4682A}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\camera\camera_spherical_coordinates">
-      <UniqueIdentifier>{706F3D99-97C4-368E-8C1C-79BEC7D9751E}</UniqueIdentifier>
+      <UniqueIdentifier>{48D86E24-532A-34B9-A5AE-80D433C1070F}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\camera\common_functions">
-      <UniqueIdentifier>{807DCC90-F957-3BE2-A37C-26FB9A79037E}</UniqueIdentifier>
+      <UniqueIdentifier>{FACC2D6D-2D7F-37C0-B887-034B93BCC3D7}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\camera_standard_behavior">
-      <UniqueIdentifier>{A98498BB-1928-317C-907C-D2D4C5C5AC2A}</UniqueIdentifier>
+      <UniqueIdentifier>{60459F56-E3C7-3F2B-9449-429E4C7FAFE2}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\glfw_inputs">
-      <UniqueIdentifier>{212FFAF8-19E5-3F3F-9045-1547BD499E9E}</UniqueIdentifier>
+      <UniqueIdentifier>{71480121-B032-39C5-ACAC-AE572E944EC6}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\gui">
-      <UniqueIdentifier>{09873049-D67C-3AA2-AB0A-6E5F35651D90}</UniqueIdentifier>
+      <UniqueIdentifier>{3CB01DCF-6F13-3565-9087-E4EA47CB83C9}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\picking">
-      <UniqueIdentifier>{BB21E8AC-F248-3437-B3BF-69E62EDDB9C6}</UniqueIdentifier>
+      <UniqueIdentifier>{BBAAAA71-181E-38C8-A5ED-FB7282B94DFE}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\picking\picking_plane">
-      <UniqueIdentifier>{98F842DC-7561-360E-A459-3D2FDC1898DE}</UniqueIdentifier>
+      <UniqueIdentifier>{E4B484A4-4B87-3371-A522-C96279BDF2EB}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\picking\picking_spheres">
-      <UniqueIdentifier>{0661EF12-780D-35A6-8F54-023F4DCFEF40}</UniqueIdentifier>
+      <UniqueIdentifier>{38FD40E7-48F2-3A3E-A225-DD287EF22D06}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\picking\picking_structure">
-      <UniqueIdentifier>{071E4000-50CA-3778-95ED-13346EF2E842}</UniqueIdentifier>
+      <UniqueIdentifier>{EFD3FB63-A7FB-36B0-92E3-628C4D51E93E}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\timer">
-      <UniqueIdentifier>{646ECDE6-FDBC-3BFD-A6A8-115BF74C2E10}</UniqueIdentifier>
+      <UniqueIdentifier>{6DC22186-46AD-3929-87A5-79FA1BFC26B9}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\timer\timer_basic">
-      <UniqueIdentifier>{C51E0306-1702-304D-BAD7-92A5B7ADA835}</UniqueIdentifier>
+      <UniqueIdentifier>{31F6C9D6-9E72-3BC6-AC84-353FAA90F0D1}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\timer\timer_event_periodic">
-      <UniqueIdentifier>{1F721EAF-6EC6-345A-8FFB-EBFA18292A9F}</UniqueIdentifier>
+      <UniqueIdentifier>{87F82782-42E2-3DB4-AB5D-2F8318AF44D4}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\timer\timer_fps">
-      <UniqueIdentifier>{F252EE94-E9E4-3F6F-9395-F73684E0515F}</UniqueIdentifier>
+      <UniqueIdentifier>{AC6015A0-4C9C-34FD-BEFB-C03AC065C7B4}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\timer\timer_interval">
-      <UniqueIdentifier>{6DE94298-F8FE-33DB-8C3E-21D9E8FDADC3}</UniqueIdentifier>
+      <UniqueIdentifier>{711DA6AE-BA8D-3D7A-A5D0-3A03C4295C59}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\tracker">
-      <UniqueIdentifier>{16A9BA94-F243-35C3-8A8F-BAD68BB8075E}</UniqueIdentifier>
+      <UniqueIdentifier>{A50F2C1E-C75F-3603-BEEE-D612C0305E2B}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\interaction\tracker\velocity_tracker">
-      <UniqueIdentifier>{7CC9FB2F-E5C5-355F-B917-15E56663E558}</UniqueIdentifier>
+      <UniqueIdentifier>{AFED459F-8F96-3935-A7CD-BDEE27C47FFF}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math">
-      <UniqueIdentifier>{BEDBCAD0-97F4-3023-9DA5-ECC917B30694}</UniqueIdentifier>
+      <UniqueIdentifier>{B524D2CC-B49D-3668-8D5C-E8BA049A11C7}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math\affine">
-      <UniqueIdentifier>{27566464-C732-3916-8930-2B053946BBE7}</UniqueIdentifier>
+      <UniqueIdentifier>{DC3638A5-CCB2-308E-872D-7505FC619050}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math\affine\affine_rt">
-      <UniqueIdentifier>{C0076349-0EFD-3DF4-AF8C-2664D4DAB6E8}</UniqueIdentifier>
+      <UniqueIdentifier>{5A8A70F9-3B3B-3364-B8A7-B5F6DD947272}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math\affine\affine_rts">
-      <UniqueIdentifier>{8179B6C3-B942-3372-B742-558CEC705CA0}</UniqueIdentifier>
+      <UniqueIdentifier>{C6C89C0B-6C07-3AFE-AEA0-731EC9728D85}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math\frame">
-      <UniqueIdentifier>{9DFC00C5-D33D-3EC3-B63B-BDCEB151309C}</UniqueIdentifier>
+      <UniqueIdentifier>{BB33B536-509B-3898-9944-E3B1CA134175}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math\interpolation">
-      <UniqueIdentifier>{BA2D4CE6-CE0C-3D7F-BFCF-A86B3F61D44F}</UniqueIdentifier>
+      <UniqueIdentifier>{0496B0C9-DE1D-33E7-B5AD-3F5EBCB17F2A}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math\matrix">
-      <UniqueIdentifier>{3485A5C2-0B6B-3474-A282-4B9B439B00B7}</UniqueIdentifier>
+      <UniqueIdentifier>{0994C002-0103-3298-BDC8-852A745D792A}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math\matrix\matrix_stack">
-      <UniqueIdentifier>{85ABE85D-7C56-3413-AD78-F88A6EDFCF1D}</UniqueIdentifier>
+      <UniqueIdentifier>{A55C5CAF-1D67-3196-9F38-7C00FFE85269}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math\matrix\matrix_stack\special_types">
-      <UniqueIdentifier>{E71CBE48-3785-30EA-9A2C-BA9E8AE81A55}</UniqueIdentifier>
+      <UniqueIdentifier>{06D501D9-6124-3867-88CF-8E5EA5867653}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math\matrix\matrix_stack\special_types\definition">
-      <UniqueIdentifier>{7FE5F33F-90A4-3DBF-91DD-EC11AA15DFA4}</UniqueIdentifier>
+      <UniqueIdentifier>{1A237666-7936-3938-826F-82E2E311B3A2}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math\matrix\matrix_stack\special_types\mat4">
-      <UniqueIdentifier>{742AE15C-DADE-3ABC-8C2D-88B0EBB9513A}</UniqueIdentifier>
+      <UniqueIdentifier>{29D4B7AE-0623-330E-A31A-E3400526EB06}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math\matrix\test">
-      <UniqueIdentifier>{F1C90996-9245-30EF-A8B7-AC59CE7C0787}</UniqueIdentifier>
+      <UniqueIdentifier>{94A79400-EE16-30E0-9630-B9F471284392}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math\projection">
-      <UniqueIdentifier>{BF17BD0E-B16F-342A-B5BB-AD17A6D94FC1}</UniqueIdentifier>
+      <UniqueIdentifier>{BEF49A52-386F-37D2-97D7-B57085FFCB4C}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math\quaternion">
-      <UniqueIdentifier>{417FCC6B-DAC5-33DC-8DA7-DD6709DBA070}</UniqueIdentifier>
+      <UniqueIdentifier>{D18DDBFD-CA88-3626-ABFA-3408E11F1985}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math\rotation_transform">
-      <UniqueIdentifier>{112F126A-3A4F-39B8-B0CC-2289EAF650FA}</UniqueIdentifier>
+      <UniqueIdentifier>{B4BDD67E-AC32-3BCA-9710-2CD4F48E0659}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math\rotation_transform\test">
-      <UniqueIdentifier>{45756D42-9274-3D59-A212-1D95A92ADFD7}</UniqueIdentifier>
+      <UniqueIdentifier>{71EBFC6D-FAFD-3A60-8BFA-29C4ED33D065}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math\vec_mat">
-      <UniqueIdentifier>{EC0D8405-B769-3F67-919E-603F9D2BBD10}</UniqueIdentifier>
+      <UniqueIdentifier>{E0DA79D5-3467-3918-93E2-0090403520DC}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\math\vec_mat\test">
-      <UniqueIdentifier>{45F5FE50-7F9F-3D3C-9D5C-E0A6C7694AD9}</UniqueIdentifier>
+      <UniqueIdentifier>{5192D703-08AA-3B23-AA0D-AC50303F7B58}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\shape">
-      <UniqueIdentifier>{3B4E2B41-30E3-34DE-ABCC-98D29C00530F}</UniqueIdentifier>
+      <UniqueIdentifier>{D2D7B9E1-D162-329C-A8D3-A0BA568E96DD}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\shape\curve">
-      <UniqueIdentifier>{F7534B3A-C05A-3151-90B0-2BAB6AE14A18}</UniqueIdentifier>
+      <UniqueIdentifier>{D9A36B72-F80A-3925-ACE0-C32A28799794}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\shape\implicit">
-      <UniqueIdentifier>{8C906936-9D8B-3104-94CA-81727D512928}</UniqueIdentifier>
+      <UniqueIdentifier>{D0C6AEB8-3F1C-3EE8-A37C-3C0A0AF0B628}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\shape\implicit\marching_cube">
-      <UniqueIdentifier>{D1187B27-D8C3-3597-8913-5ECBCDA77E6B}</UniqueIdentifier>
+      <UniqueIdentifier>{E8416895-DA85-3D4C-8D51-75E63C0A6E70}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\shape\implicit\marching_cube\helper">
-      <UniqueIdentifier>{C277E176-3263-3F1B-B0FB-18DED7223380}</UniqueIdentifier>
+      <UniqueIdentifier>{CA372295-ECCD-3AB8-82AD-3162D0A57CC1}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\shape\intersection">
-      <UniqueIdentifier>{699C2CD9-343E-3417-A3C5-1D69C1C7187C}</UniqueIdentifier>
+      <UniqueIdentifier>{CB509C8A-1BA2-30B5-A8CE-5C8E3ABDF8FF}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\shape\mesh">
-      <UniqueIdentifier>{00169B14-78CC-31BA-99E3-4C48762A4AB1}</UniqueIdentifier>
+      <UniqueIdentifier>{5B24BE6D-7E0C-3B4F-B5EB-C90E2F9F9216}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\shape\mesh\loader">
-      <UniqueIdentifier>{95680240-ABDA-3D60-8213-7E8F33B05CF8}</UniqueIdentifier>
+      <UniqueIdentifier>{D8207703-3A5C-3DC1-B4D8-EBA2A80E06AF}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\shape\mesh\loader\obj">
-      <UniqueIdentifier>{E53DC25C-A437-374D-BBD3-4821A622F56D}</UniqueIdentifier>
+      <UniqueIdentifier>{CAE32BF3-F508-3111-AD4C-7373FDF765BC}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\shape\mesh\primitive">
-      <UniqueIdentifier>{4266676B-AA40-3BAE-BDBF-B7C1B82B38BF}</UniqueIdentifier>
+      <UniqueIdentifier>{D249EBFC-4465-3CEB-87B5-F3B740ADB840}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\shape\mesh\structure">
-      <UniqueIdentifier>{05643A0E-681C-3688-9022-9A236904ADDC}</UniqueIdentifier>
+      <UniqueIdentifier>{F7ACC863-4996-384F-B7A3-F42322E03D33}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\shape\noise">
-      <UniqueIdentifier>{F00CA122-A493-3B76-88BA-D6874710F323}</UniqueIdentifier>
+      <UniqueIdentifier>{C19B353B-3B0C-3141-A66E-85EE7DFD2760}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\shape\spatial_domain">
-      <UniqueIdentifier>{9E22A594-BDE1-34F5-A3D7-AC8A1612F3FD}</UniqueIdentifier>
+      <UniqueIdentifier>{CEB55F6F-5349-30E5-9F01-DC047A69927B}</UniqueIdentifier>
     </Filter>
     <Filter Include="cgp\shape\spatial_domain\spatial_domain_grid_3D">
-      <UniqueIdentifier>{0E2CA783-33CD-3CDB-B815-E74239FF5E83}</UniqueIdentifier>
+      <UniqueIdentifier>{F2311FB7-7020-3581-8E88-57B6C0D329F8}</UniqueIdentifier>
     </Filter>
     <Filter Include="shaders">
-      <UniqueIdentifier>{F5D49141-8A12-3A45-9D54-D9537F550D21}</UniqueIdentifier>
+      <UniqueIdentifier>{C0057EE1-E2AA-3E15-A506-60F596E1C84F}</UniqueIdentifier>
     </Filter>
     <Filter Include="shaders\mesh">
-      <UniqueIdentifier>{34CABC12-F06E-300F-89D0-495B1EF88358}</UniqueIdentifier>
+      <UniqueIdentifier>{7B74748B-FE16-3E4E-8677-307075A9842D}</UniqueIdentifier>
     </Filter>
     <Filter Include="shaders\shadow_map">
-      <UniqueIdentifier>{A732A99E-ACF7-3E42-8EFE-004B631951AB}</UniqueIdentifier>
+      <UniqueIdentifier>{A49B0669-8AA0-3680-8BEC-258B4C738770}</UniqueIdentifier>
     </Filter>
     <Filter Include="shaders\shadow_map\generate_depth_map">
-      <UniqueIdentifier>{D7F6B13E-4AF9-33DF-A2E2-20303BAF8F6B}</UniqueIdentifier>
+      <UniqueIdentifier>{879E262B-1F92-3FB8-AA2F-6E79287C5006}</UniqueIdentifier>
     </Filter>
     <Filter Include="shaders\shadow_map\use_shadows">
-      <UniqueIdentifier>{A92C20D0-5604-31B1-A49A-8F4FE30F46E1}</UniqueIdentifier>
+      <UniqueIdentifier>{2919E578-57E4-39BC-97BB-940E0A4F534F}</UniqueIdentifier>
     </Filter>
     <Filter Include="shaders\single_color">
-      <UniqueIdentifier>{8E74D15C-393E-3024-B287-B51184F500BF}</UniqueIdentifier>
+      <UniqueIdentifier>{7DB00E55-88C2-3B1B-9E2E-57C8C6DB70A5}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{7A2A2792-417C-3130-B956-E44458E1AA7C}</UniqueIdentifier>
+      <UniqueIdentifier>{FB2E515B-2D97-3821-BA78-48737FD3EB75}</UniqueIdentifier>
     </Filter>
     <Filter Include="third_party">
-      <UniqueIdentifier>{4E3E4AC4-3D94-3B0A-BC59-5D76DF312998}</UniqueIdentifier>
+      <UniqueIdentifier>{E2B5D83E-7BBC-372F-B32F-EF5D497DC49A}</UniqueIdentifier>
     </Filter>
     <Filter Include="third_party\src">
-      <UniqueIdentifier>{5CDF8888-CF62-30C8-A4EA-D288D64009DA}</UniqueIdentifier>
+      <UniqueIdentifier>{5CAD6FFC-7306-3ABB-A4AD-193F42EA512A}</UniqueIdentifier>
     </Filter>
     <Filter Include="third_party\src\glad">
-      <UniqueIdentifier>{86CA4418-E463-352F-9BD3-2A478F10BC59}</UniqueIdentifier>
+      <UniqueIdentifier>{6FA18EFD-19E0-3871-A988-3341F239A343}</UniqueIdentifier>
     </Filter>
     <Filter Include="third_party\src\glad\include">
-      <UniqueIdentifier>{F2ACB784-BD29-3D46-BCCF-A62ED9CE32D1}</UniqueIdentifier>
+      <UniqueIdentifier>{6BDFAA74-3946-365C-A2F3-8F92C0B5CADF}</UniqueIdentifier>
     </Filter>
     <Filter Include="third_party\src\glad\include\glad">
-      <UniqueIdentifier>{92C070B3-8DB4-31A2-B39A-9BC1C9DA5C52}</UniqueIdentifier>
+      <UniqueIdentifier>{86786C43-4DCE-34CA-9B41-AEF5B6D15FAD}</UniqueIdentifier>
     </Filter>
     <Filter Include="third_party\src\glad\src">
-      <UniqueIdentifier>{1CD7B712-AD09-33FA-8BAB-62FC8187DFB4}</UniqueIdentifier>
+      <UniqueIdentifier>{09EA1181-9E08-36FB-886C-037F4C28B736}</UniqueIdentifier>
     </Filter>
     <Filter Include="third_party\src\imgui">
-      <UniqueIdentifier>{8EE38287-9418-3B5C-AB1C-1519E149DC08}</UniqueIdentifier>
+      <UniqueIdentifier>{D4D3298F-BDE8-35E4-ACE7-8BC02B4F96E7}</UniqueIdentifier>
     </Filter>
     <Filter Include="third_party\src\jpeg">
-      <UniqueIdentifier>{40171C86-17FA-3314-999B-FCB49D35DD89}</UniqueIdentifier>
+      <UniqueIdentifier>{B7A77558-6536-38AA-A307-314287F91B68}</UniqueIdentifier>
     </Filter>
     <Filter Include="third_party\src\lodepng">
-      <UniqueIdentifier>{DEE9E54B-2AAA-3026-8450-39802C95900A}</UniqueIdentifier>
+      <UniqueIdentifier>{FAF9E3D8-CA41-3F11-91D9-C5F8B9EB86AD}</UniqueIdentifier>
     </Filter>
     <Filter Include="third_party\src\simplexnoise">
-      <UniqueIdentifier>{727F25BE-4DE0-3F3A-A548-222A29658840}</UniqueIdentifier>
+      <UniqueIdentifier>{4F358045-CC31-3996-ABD2-B3D08A3FE478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\mesh_lights">
+      <UniqueIdentifier>{0f8a7b9a-b267-45a7-8529-c4264a9f5702}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

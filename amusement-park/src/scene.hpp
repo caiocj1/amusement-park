@@ -25,6 +25,8 @@ struct scene_structure {
 
 	cgp::skybox_drawable skybox;
 
+	light_shape_drawable light_drawable;
+
 	cgp::mesh water_mesh;
 	cgp::mesh water_mesh_init;
 

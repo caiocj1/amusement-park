@@ -55,14 +55,18 @@ void scene_structure::update_camera()
 
 void scene_structure::initialize()
 {
-    
+	GLuint const shader_lights = opengl_load_shader("shaders/mesh_lights/vert.glsl", "shaders/mesh_lights/frag.glsl");
+	mesh_drawable::default_shader = shader_lights;   // set this shader as the default one for all new shapes declared after this line 
+
+	// The lights displayed as spheres using this helper initializer (*)-optionnal
+	light_drawable.initialize(shader_lights);
 
 	// Basic set-up
 	// ***************************************** //
 
 	global_frame.initialize(mesh_primitive_frame(), "Frame");
 
-	environment.camera.position_camera = { 15, 6, 6 };
+	environment.camera.position_camera = { -5, 0, 0 };
 	environment.camera.manipulator_rotate_roll_pitch_yaw(0, Pi / 2.0f, 0);
 
 
@@ -174,6 +178,11 @@ void scene_structure::display()
 		draw_wireframe(terrain, environment);
 	}
 	draw(sphere_light, environment); // note that the sphere_light should not cast shadow itself
+
+	// Update the position and color of the lights
+	compute_light_position(t, environment);
+	draw(light_drawable, environment); // this is a helper function from multiple_lights (display all the spotlights as spheres) (*)-optionnal
+
 
 	update_terrain(water_mesh, water_mesh_init, water, t);
 }

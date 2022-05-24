@@ -18,6 +18,21 @@ struct scene_environment_shadow_map {
 	cgp::camera_spherical_coordinates light_view;
 	cgp::camera_projection light_projection;
 
+	// ---------------- Testing multiple lights + fog
+
+	// Store position for 5 lights
+	std::array<cgp::vec3, 5> spotlight_position;
+	// The (r,g,b) color of the 5 lights
+	std::array<cgp::vec3, 5> spotlight_color;
+
+	// The characteristic attenuation of the light
+	float spotlight_falloff = 0.5f;
+
+	// The characteristic attenuation due to the fog
+	float fog_falloff = 0.005f;
+
+	// ------------------------------------------------
+
 	scene_environment_shadow_map();
 };
 void opengl_uniform(GLuint shader, scene_environment_shadow_map const& current_scene);
@@ -42,3 +57,23 @@ struct shadow_map_structure
 	void draw_shadow_map(cgp::mesh_drawable const& drawable, scene_environment_shadow_map const& scene);
 	void draw_with_shadow(cgp::mesh_drawable const& drawable, scene_environment_shadow_map const& current_scene);
 };
+
+// ---------------- Testing multiple lights + fog
+
+// Function to call in the display function of your scene
+//  Compute a new position and color of the lights procedurally.
+//  This function can be modified at your will.
+void compute_light_position(float t, scene_environment_shadow_map& environment);
+
+/** A structure to help drawing the light as sphere
+* The spotlights are simply displayed as spheres */
+struct light_shape_drawable
+{
+	cgp::mesh_drawable spotlight_sphere;              // a mesh_drawable of a sphere
+	void initialize(GLuint shader_multiple_lights);   // Initialise the spotlight_sphere to a sphere
+};
+// Function to call in your scene display to draw all the spotlights
+void draw(light_shape_drawable lights, scene_environment_shadow_map const& environment);
+
+// Function to call in your display_gui to add the sliders modifying the spotlight and fog falloff
+void display_gui_falloff(scene_environment_shadow_map& environment);
