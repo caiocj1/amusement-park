@@ -1,0 +1,10 @@
+^C:\USERS\FABIANO_2\DESKTOP\INF443_3\AMUSEMENT-PARK\AMUSEMENT-PARK\BUILD\CMAKEFILES\3F7EBD7045A0EBDC628A0924A0A1BB0B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Fabiano_2/Desktop/INF443_3/amusement-park/amusement-park -BC:/Users/Fabiano_2/Desktop/INF443_3/amusement-park/amusement-park/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Fabiano_2/Desktop/INF443_3/amusement-park/amusement-park/build/amusement-park.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

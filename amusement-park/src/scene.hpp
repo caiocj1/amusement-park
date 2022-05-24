@@ -26,10 +26,17 @@ struct scene_structure {
 	cgp::skybox_drawable skybox;
 
 	cgp::mesh water_mesh;
+	cgp::mesh water_mesh_init;
 
 	cgp::mesh_drawable terrain;
 	cgp::mesh_drawable water;
 	cgp::mesh_drawable sphere_light; //used to display the position of the light
+	cgp::mesh_drawable metal;
+	cgp::mesh_drawable lighthouse;
+	cgp::mesh_drawable cone;
+	cgp::mesh_drawable castle;
+
+	cgp::hierarchy_mesh_drawable hierarchy;
 
 	perlin_noise_parameters parameters;
 

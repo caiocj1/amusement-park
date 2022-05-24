@@ -1,0 +1,10 @@
+^C:\USERS\FABIANO_2\DESKTOP\INF443_3\AMUSEMENT-PARK\AMUSEMENT-PARK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Fabiano_2/Desktop/INF443_3/amusement-park/amusement-park -BC:/Users/Fabiano_2/Desktop/INF443_3/amusement-park/amusement-park/build --check-stamp-file C:/Users/Fabiano_2/Desktop/INF443_3/amusement-park/amusement-park/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

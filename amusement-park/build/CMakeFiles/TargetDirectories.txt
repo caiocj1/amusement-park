@@ -1,0 +1,3 @@
+C:/Users/Fabiano_2/Desktop/INF443_3/amusement-park/amusement-park/build/CMakeFiles/amusement-park.dir
+C:/Users/Fabiano_2/Desktop/INF443_3/amusement-park/amusement-park/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Fabiano_2/Desktop/INF443_3/amusement-park/amusement-park/build/CMakeFiles/ZERO_CHECK.dir
