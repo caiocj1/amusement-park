@@ -1,1 +1,1 @@
-﻿  Checking Build System
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1171,5): error MSB3191: Unable to create directory "C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\build\CMakeFiles\". Access to the path 'C:\Users\Fabiano_2\Desktop\INF443_3\amusement-park\amusement-park\build\CMakeFiles\' is denied.
