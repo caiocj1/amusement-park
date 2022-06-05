@@ -55,7 +55,7 @@ void scene_structure::initialize()
 
 	// Physical models
 	{
-
+		// Terrain *********************
 		mesh terrain_mesh = mesh_load_file_obj("obj/final_.obj");
 		//terrain_mesh.uv *= 1;
 		GLuint const texture_image_id_terrain = opengl_load_texture_image("tex/tex_.jpg", GL_REPEAT, GL_REPEAT);
@@ -66,6 +66,7 @@ void scene_structure::initialize()
 		water_mesh = create_terrain_mesh();
 		water_mesh.uv *= 2;
 
+		// Water **********************
 		GLuint const texture_image_id_water = opengl_load_texture_image("tex/water_4.jpg", GL_REPEAT, GL_REPEAT);
 		water.initialize(water_mesh, "water", shader_lights, texture_image_id_water);
 		water.transform.scaling = 200.0f;
@@ -74,42 +75,38 @@ void scene_structure::initialize()
 
 		water_mesh_init = water_mesh;
 
-		mesh lighthouse_metal_mesh = mesh_load_file_obj("obj/light_house_metal.obj");
-		lighthouse_metal_mesh.uv *= 1;
-		GLuint const texture_image_id_metal = opengl_load_texture_image("tex/metal.jpg", GL_REPEAT, GL_REPEAT);
-		metal.initialize(lighthouse_metal_mesh, "metal", shader_lights, texture_image_id_metal);
-		metal.transform.scaling = 3.0f;
-		metal.transform.translation = { 41.1f,50.0f,-22.5f };
-
+		// Lighthouse ******************
 		mesh lighthouse_mesh = mesh_load_file_obj("obj/light_house.obj");
 		lighthouse_mesh.uv *= 1;
 		GLuint const texture_image_id_lighthouse = opengl_load_texture_image("tex/lighthouse_5.jpg", GL_REPEAT, GL_REPEAT);
 		lighthouse.initialize(lighthouse_mesh, "lighthouse", shader_lights, texture_image_id_lighthouse);
-		lighthouse.transform.scaling = 1.5f;
-		lighthouse.transform.translation = { 30.0f, 50.0f, -40.0f };
+		lighthouse.transform.scaling = 0.9f;
+		lighthouse.transform.translation = { 14.0f, 33.0f, -21.5f };
+
+		mesh lighthouse_metal_mesh = mesh_load_file_obj("obj/light_house_metal.obj");
+		lighthouse_metal_mesh.uv *= 1;
+		GLuint const texture_image_id_metal = opengl_load_texture_image("tex/metal.jpg", GL_REPEAT, GL_REPEAT);
+		metal.initialize(lighthouse_metal_mesh, "metal", shader_lights, texture_image_id_metal);
+		metal.transform.scaling = 1.8f;
+		metal.transform.translation = { 20.7f,33.0f,-10.3f };
 
 		mesh cone_mesh = mesh_load_file_obj("obj/cone.obj");
 		cone_mesh.uv *= 1;
 		GLuint const texture_image_id_cone = opengl_load_texture_image("tex/cone.jpg", GL_REPEAT, GL_REPEAT);
 		cone.initialize(cone_mesh, "cone", shader_lights, texture_image_id_cone);
-		cone.transform.scaling = 2.0f;
-		cone.transform.translation = { 41.0f,50.0,-13.5f };
-		cone.shading.phong = { 1,0,0,1 };
+		cone.transform.scaling = 1.2f;
+		cone.transform.translation = { 20.7f,33.0f,-5.0f };
+		//cone.shading.phong = { 1,0,0,1 };
 
-
-		hierarchy.add(lighthouse);
-		hierarchy.add(metal, "lighthouse");
-		hierarchy.add(cone, "metal");
-
-		mesh castle_mesh = mesh_load_file_obj("obj/castle_ruin.obj");
-		castle_mesh.uv *= 1;
-		GLuint const texture_image_id_castle = opengl_load_texture_image("tex/ruined_castle.png", GL_REPEAT, GL_REPEAT);
-		castle.initialize(castle_mesh, "castle", shader_lights, texture_image_id_castle);
-		castle.transform.scaling = 1.0f;
-		castle.transform.translation = { 20.0f, 86.0f, -9.0f };
-		castle.shading.phong = { 1,1,0,1 };
-		castle.shading.color = { 0.6f,0.6f,0.6f };
-
+		//// Castle ***********************
+		//mesh castle_mesh = mesh_load_file_obj("obj/castle_ruin.obj");
+		//castle_mesh.uv *= 1;
+		//GLuint const texture_image_id_castle = opengl_load_texture_image("tex/ruined_castle.png", GL_REPEAT, GL_REPEAT);
+		//castle.initialize(castle_mesh, "castle", shader_lights, texture_image_id_castle);
+		//castle.transform.scaling = 1.0f;
+		//castle.transform.translation = { 20.0f, 86.0f, -9.0f };
+		//castle.shading.phong = { 1,1,0,1 };
+		//castle.shading.color = { 0.6f,0.6f,0.6f };
 	}
 
 
@@ -120,63 +117,32 @@ void scene_structure::initialize()
 	{
 		mesh_drawable light_cone_head;
 		light_cone_head.initialize(mesh_primitive_sphere(0.01, { 0, 0, 0 }, 40, 20), "light_cone_head");
-
-		mesh out_light_cone_mesh = mesh_primitive_cone(40, 600);
-
-		out_light_cone1.initialize(out_light_cone_mesh, "out_light_cone1");
-		out_light_cone1.transform.rotation *= rotation_transform::between_vector({ 0, 0, 1 }, { 0, 1, 0 });
-		out_light_cone1.shading.color = {1.0, 0.9, 0.1};
-		out_light_cone1.shading.alpha = 0.1;
-
-		out_light_cone2.initialize(out_light_cone_mesh, "out_light_cone2");
-		out_light_cone2.transform.rotation *= rotation_transform::between_vector({ 0, 0, 1 }, { 0, -1, 0 });
-		out_light_cone2.shading.color = { 1.0, 0.9, 0.1 };
-		out_light_cone2.shading.alpha = 0.1;
-
-		mesh mid_light_cone_mesh = mesh_primitive_cone(35, 600);
-
-		mid_light_cone1.initialize(mid_light_cone_mesh, "mid_light_cone1");
-		mid_light_cone1.transform.rotation *= rotation_transform::between_vector({ 0, 0, 1 }, { 0, 1, 0 });
-		mid_light_cone1.shading.color = { 1.0, 0.9, 0.1 };
-		mid_light_cone1.shading.alpha = 0.2f;
-
-		mid_light_cone2.initialize(mid_light_cone_mesh, "mid_light_cone2");
-		mid_light_cone2.transform.rotation *= rotation_transform::between_vector({ 0, 0, 1 }, { 0, -1, 0 });
-		mid_light_cone2.shading.color = { 1.0, 0.9, 0.1 };
-		mid_light_cone2.shading.alpha = 0.2f;
-
-		mesh in_light_cone_mesh = mesh_primitive_cone(30, 600);
-
-		in_light_cone1.initialize(in_light_cone_mesh, "in_light_cone1");
-		in_light_cone1.transform.rotation *= rotation_transform::between_vector({ 0, 0, 1 }, { 0, 1, 0 });
-		in_light_cone1.shading.color = { 1.0, 0.9, 0.1 };
-		in_light_cone1.shading.alpha = 0.25f;
-
-		in_light_cone2.initialize(in_light_cone_mesh, "in_light_cone2");
-		in_light_cone2.transform.rotation *= rotation_transform::between_vector({ 0, 0, 1 }, { 0, -1, 0 });
-		in_light_cone2.shading.color = { 1.0, 0.9, 0.1 };
-		in_light_cone2.shading.alpha = 0.25;
-
 		hierarchy.add(light_cone_head);
-		hierarchy.add(out_light_cone1, "light_cone_head", {0, -600, 0});
-		hierarchy.add(out_light_cone2, "light_cone_head", { 0, 600, 0 });
-		hierarchy.add(mid_light_cone1, "light_cone_head", { 0, -600, 0 });
-		hierarchy.add(mid_light_cone2, "light_cone_head", { 0, 600, 0 });
-		hierarchy.add(in_light_cone1, "light_cone_head", { 0, -600, 0 });
-		hierarchy.add(in_light_cone2, "light_cone_head", { 0, 600, 0 });
-		
-		hierarchy["light_cone_head"].transform.translation = { 41.1f, 50.0f, -16.0f };
+
+		mesh* light_cone_meshes = new mesh[20];
+
+		for(int i = 0; i < 20; i++)
+		{
+			light_cone_meshes[i] = mesh_primitive_cone(15.0f * sin((i + 1) * Pi / (40.0f)), 103.0f + 15.0f * cos((i + 1) * Pi / (40.0f)));
+			light_cones[i].initialize(light_cone_meshes[i], "cone" + std::to_string(i));
+			light_cones[i].transform.rotation *= rotation_transform::between_vector({ 0, 0, 1 }, { 0, 1, 0 });
+			light_cones[i].shading.color = { 1.0, 0.9, 0.55 };
+			light_cones[i].shading.alpha = 0.2f * (20 - i) / 20;
+
+			hierarchy.add(light_cones[i], "light_cone_head", { 0, -(103.0f + 15.0f * cos((i + 1) * Pi / (40.0f))), 0 });
+		}
+
+		delete[] light_cone_meshes;
+
+		hierarchy["light_cone_head"].transform.translation = { 20.7f, 33.0f, -6.8f };
 	}
 
-	//environment.projection = camera_projection::perspective(50.0f * Pi / 180, 1.0f, 0.1f, 500.0f);
 	environment.camera.axis = camera_spherical_coordinates_axis::z;
 	environment.camera.look_at({ -1, 0, 0 }, { 0,0,0 });
 	environment.camera.manipulator_rotate_spherical_coordinates(-Pi/2, 0);
 
 	skybox.initialize("tex/skybox/");
 }
-
-
 
 void scene_structure::display()
 {
@@ -188,16 +154,15 @@ void scene_structure::display()
 	draw(global_frame, environment);
 
 	draw(terrain, environment);
-	draw(water, environment);
+	//draw(water, environment);
 	draw(metal, environment);
 	draw(lighthouse, environment);
 	draw(cone, environment);
-	draw(castle, environment);
+	//draw(castle, environment);
 
 	// Update the position and color of the lights
 	compute_light_position(t, environment);
 	draw(light_drawable, environment); // this is a helper function from multiple_lights (display all the spotlights as spheres) (*)-optionnal
-
 
 	hierarchy["light_cone_head"].transform.rotation *= rotation_transform::from_axis_angle({ 0, 0, 1 }, 300 * dt);
 	hierarchy.update_local_to_global_coordinates();

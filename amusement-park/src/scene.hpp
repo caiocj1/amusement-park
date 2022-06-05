@@ -9,7 +9,7 @@ struct gui_parameters {
 	bool display_frame = true;
 	bool display_wireframe = true;
 	bool animated_shapes = true;
-	float speed = 1.0f;
+	float speed = 2.0f;
 };
 
 struct scene_structure {
@@ -29,23 +29,26 @@ struct scene_structure {
 	light_shape_drawable light_drawable;
 
 	// -------------- Meshes
-
+	cgp::mesh_drawable water;
 	cgp::mesh water_mesh;
 	cgp::mesh water_mesh_init;
 
 	cgp::mesh_drawable terrain;
-	cgp::mesh_drawable water;
+	
 	cgp::mesh_drawable metal;
 	cgp::mesh_drawable lighthouse;
 	cgp::mesh_drawable cone;
+
 	cgp::mesh_drawable castle;
 
-	cgp::mesh_drawable out_light_cone1;
+	cgp::mesh_drawable light_cones[20];
+
+	/*cgp::mesh_drawable out_light_cone1;
 	cgp::mesh_drawable out_light_cone2;
 	cgp::mesh_drawable mid_light_cone1;
 	cgp::mesh_drawable mid_light_cone2;
 	cgp::mesh_drawable in_light_cone1;
-	cgp::mesh_drawable in_light_cone2;
+	cgp::mesh_drawable in_light_cone2;*/
 
 	cgp::hierarchy_mesh_drawable hierarchy;
 

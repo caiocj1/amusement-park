@@ -27,8 +27,8 @@ void compute_light_position(float t, scene_environment_with_multiple_lights& env
 {
 	// Adapt the position and color of the spotlight procedurally as a function of t
 
-	environment.spotlight_color[0] = { 1.0f, 0.9f, 0.1f };
-	environment.spotlight_position[0] = { 41.1f, 50.0f, -16.0f };
+	environment.spotlight_color[0] = { 1.0f, 0.95f, 0.5f };
+	environment.spotlight_position[0] = { 20.7f, 33.0f, -6.8f };
 }
 
 void light_shape_drawable::initialize(GLuint shader_multiple_lights)
