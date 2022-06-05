@@ -63,15 +63,16 @@ void scene_structure::initialize()
 		terrain.transform.translation = { 0,0,-45 };
 		terrain.shading.phong = { 1,1,0,1 };
 
+		// Water **********************
+		GLuint const ocean_shader = opengl_load_shader("shaders/ocean/vert.glsl", "shaders/ocean/frag.glsl");
+
 		water_mesh = create_terrain_mesh();
 		water_mesh.uv *= 2;
 
-		// Water **********************
 		GLuint const texture_image_id_water = opengl_load_texture_image("tex/water_4.jpg", GL_REPEAT, GL_REPEAT);
-		water.initialize(water_mesh, "water", shader_lights, texture_image_id_water);
+		water.initialize(water_mesh, "water", ocean_shader, texture_image_id_water);
 		water.transform.scaling = 200.0f;
-		water.transform.translation = { 0,0,-50};
-		update_terrain(water_mesh, water, parameters);
+		water.transform.translation = { 0,0,-41.5 };
 
 		water_mesh_init = water_mesh;
 
@@ -119,6 +120,9 @@ void scene_structure::initialize()
 		light_cone_head.initialize(mesh_primitive_sphere(0.01, { 0, 0, 0 }, 40, 20), "light_cone_head");
 		hierarchy.add(light_cone_head);
 
+		// Use another shader?
+		//GLuint const shader_cone = opengl_load_shader("shaders/light_cone/vert.glsl", "shaders/light_cone/frag.glsl");
+
 		mesh* light_cone_meshes = new mesh[20];
 
 		for(int i = 0; i < 20; i++)
@@ -154,7 +158,8 @@ void scene_structure::display()
 	draw(global_frame, environment);
 
 	draw(terrain, environment);
-	//draw(water, environment);
+	draw(water, environment);
+
 	draw(metal, environment);
 	draw(lighthouse, environment);
 	draw(cone, environment);
@@ -170,7 +175,7 @@ void scene_structure::display()
 	display_semi_transparent();
 	display_gui();
 
-	update_terrain(water_mesh, water_mesh_init, water, t);
+	//update_terrain(water_mesh, water_mesh_init, water, t);
 }
 
 void scene_structure::display_semi_transparent()

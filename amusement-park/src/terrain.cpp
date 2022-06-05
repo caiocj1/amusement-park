@@ -3,9 +3,11 @@
 
 using namespace cgp;
 
+vec3 k = { 0.01, 0.0, 0.0 };
+
 mesh create_terrain_mesh()
 {
-	int const terrain_sample = 100;
+	int const terrain_sample = 1024;
 	mesh terrain = mesh_primitive_grid({ -1,-1,0 }, { 1,-1,0 }, { 1,1,0 }, { -1,1,0 }, terrain_sample, terrain_sample);
 	return terrain;
 }
