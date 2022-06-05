@@ -56,18 +56,20 @@ void scene_structure::initialize()
 	// Physical models
 	{
 
-		mesh terrain_mesh = mesh_load_file_obj("obj/terrain_tilt.obj");
-		terrain_mesh.uv *= 7;
-		GLuint const texture_image_id_terrain = opengl_load_texture_image("tex/rock_2.jpg", GL_REPEAT, GL_REPEAT);
+		mesh terrain_mesh = mesh_load_file_obj("obj/final_.obj");
+		//terrain_mesh.uv *= 1;
+		GLuint const texture_image_id_terrain = opengl_load_texture_image("tex/tex_.jpg", GL_REPEAT, GL_REPEAT);
 		terrain.initialize(terrain_mesh, "terrain", shader_lights, texture_image_id_terrain);
+		terrain.transform.translation = { 0,0,-45 };
+		terrain.shading.phong = { 1,1,0,1 };
 
 		water_mesh = create_terrain_mesh();
 		water_mesh.uv *= 2;
 
 		GLuint const texture_image_id_water = opengl_load_texture_image("tex/water_4.jpg", GL_REPEAT, GL_REPEAT);
 		water.initialize(water_mesh, "water", shader_lights, texture_image_id_water);
-		water.transform.scaling = 100.0f;
-		water.transform.translation = { 0,0,-45 };
+		water.transform.scaling = 200.0f;
+		water.transform.translation = { 0,0,-50};
 		update_terrain(water_mesh, water, parameters);
 
 		water_mesh_init = water_mesh;
@@ -201,7 +203,7 @@ void scene_structure::display()
 	hierarchy.update_local_to_global_coordinates();
 
 	display_semi_transparent();
-
+	display_gui();
 
 	update_terrain(water_mesh, water_mesh_init, water, t);
 }

@@ -7,7 +7,7 @@
 
 struct gui_parameters {
 	bool display_frame = true;
-	bool display_wireframe = false;
+	bool display_wireframe = true;
 	bool animated_shapes = true;
 	float speed = 1.0f;
 };
