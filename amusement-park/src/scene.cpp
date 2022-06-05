@@ -106,9 +106,17 @@ void scene_structure::initialize()
 		GLuint const texture_image_id_castle = opengl_load_texture_image("tex/ruined_castle.png", GL_REPEAT, GL_REPEAT);
 		castle.initialize(castle_mesh, "castle", shader_lights, texture_image_id_castle);
 		castle.transform.scaling = 1.0f;
-		castle.transform.translation = { 20.0f, 86.0f, -9.0f };
+		castle.transform.translation = {75.0f, -155.0f, -14.0f };
+		castle.transform.rotation *= rotation_transform::between_vector({ 0, -1, 0 }, {0, 1, 0});
 		castle.shading.phong = { 1,1,0,1 };
 		castle.shading.color = { 0.6f,0.6f,0.6f };
+
+		mesh boat_mesh = mesh_load_file_obj("obj/boat.obj");
+		GLuint const texture_image_id_boat = opengl_load_texture_image("tex/rust.jpg", GL_REPEAT, GL_REPEAT);
+		boat.initialize(boat_mesh, "boat", shader_lights, texture_image_id_boat);
+		boat.transform.scaling = 2.0f;
+		boat.transform.rotation *= rotation_transform::between_vector({ 0, 0, 1 }, { std::sqrt(0.05f), -std::sqrt(0.9f), -std::sqrt(0.05f)});
+		boat.transform.translation = {-83.5f, -8.0f, -42.0f };
 
 	}
 
@@ -193,6 +201,8 @@ void scene_structure::display()
 	draw(lighthouse, environment);
 	draw(cone, environment);
 	draw(castle, environment);
+	draw(boat, environment);
+
 
 	// Update the position and color of the lights
 	compute_light_position(t, environment);

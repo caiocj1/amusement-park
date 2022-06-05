@@ -39,6 +39,7 @@ struct scene_structure {
 	cgp::mesh_drawable lighthouse;
 	cgp::mesh_drawable cone;
 	cgp::mesh_drawable castle;
+	cgp::mesh_drawable boat;
 
 	cgp::mesh_drawable out_light_cone1;
 	cgp::mesh_drawable out_light_cone2;
