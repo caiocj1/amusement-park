@@ -3,12 +3,22 @@
 
 using namespace cgp;
 
-vec3 k = { 0.01, 0.0, 0.0 };
+// Wave parameters
+
+vec2 k1 = { 0.1, 0 };
+vec2 k2 = { 0.2, 0.1 };
+vec2 k3 = { -0.1, 0.1 };
+vec2 k4 = { 0, 0.3 };
+
+float ampl1 = 0.5;
+float ampl2 = 0.3;
+float ampl3 = 0.2;
+float ampl4 = 0.4;
 
 mesh create_terrain_mesh()
 {
-	int const terrain_sample = 1024;
-	mesh terrain = mesh_primitive_grid({ -1,-1,0 }, { 1,-1,0 }, { 1,1,0 }, { -1,1,0 }, terrain_sample, terrain_sample);
+	int const terrain_sample = 100;
+	mesh terrain = mesh_primitive_grid({ -200,-200,0 }, { 200,-200,0 }, { 200,200,0 }, { -200,200,0 }, terrain_sample, terrain_sample);
 	return terrain;
 }
 
@@ -84,4 +94,48 @@ void update_terrain(mesh& terrain, mesh& terrain_init, mesh_drawable& terrain_vi
 	terrain_visual.update_color(terrain.color);
 	terrain_visual.update_uv(terrain.uv);
 
+}
+
+void gerstner_waves(mesh& terrain, mesh& terrain_init, mesh_drawable& terrain_visual, float t)
+{
+	int const N = std::sqrt(terrain.position.size());
+
+
+	for (int ku = 0; ku < N; ++ku) {
+		for (int kv = 0; kv < N; ++kv) {
+			const float u = ku / (N - 1.0f);
+			const float v = kv / (N - 1.0f);
+
+			int const idx = ku * N + kv;
+
+			terrain.position[idx].z = terrain_init.position[idx].z +
+				ampl1 * cos(dot(k1, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k1)) * t) +
+				ampl2 * cos(dot(k2, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k2)) * t) +
+				ampl3 * cos(dot(k3, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k3)) * t) +
+				ampl4 * cos(dot(k4, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k4)) * t);
+
+			terrain.position[idx].x = terrain_init.position[idx].x -
+				((k1[0] / norm(k1)) * ampl1 * sin(dot(k1, {terrain_init.position[idx].x, terrain_init.position[idx].y}) - sqrt(9.8 * norm(k1)) * t) +
+				(k2[0] / norm(k2)) * ampl2 * sin(dot(k2, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k2)) * t) +
+				(k3[0] / norm(k3)) * ampl3 * sin(dot(k3, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k3)) * t) +
+				(k4[0] / norm(k4)) * ampl4 * sin(dot(k4, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k4)) * t));
+
+			terrain.position[idx].y = terrain_init.position[idx].y -
+				((k1[1] / norm(k1)) * ampl1 * sin(dot(k1, {terrain_init.position[idx].x, terrain_init.position[idx].y}) - sqrt(9.8 * norm(k1)) * t) +
+				(k2[1] / norm(k2)) * ampl2 * sin(dot(k2, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k2)) * t) +
+				(k3[1] / norm(k3)) * ampl3 * sin(dot(k3, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k3)) * t) +
+				(k4[1] / norm(k4)) * ampl4 * sin(dot(k4, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k4)) * t));
+
+			terrain.color[idx] = vec3(0.01, 0.15, 0.28) + vec3(0.8, 0.7, 0.2) * (terrain.position[idx].z - terrain_init.position[idx].z) / 30;
+		}
+	}
+
+	// Update the normal of the mesh structure
+	terrain.compute_normal();
+
+	// Update step: Allows to update a mesh_drawable without creating a new one
+	terrain_visual.update_position(terrain.position);
+	terrain_visual.update_normal(terrain.normal);
+	terrain_visual.update_color(terrain.color);
+	terrain_visual.update_uv(terrain.uv);
 }

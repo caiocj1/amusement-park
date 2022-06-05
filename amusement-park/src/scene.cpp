@@ -70,8 +70,8 @@ void scene_structure::initialize()
 		water_mesh.uv *= 2;
 
 		GLuint const texture_image_id_water = opengl_load_texture_image("tex/water_4.jpg", GL_REPEAT, GL_REPEAT);
-		water.initialize(water_mesh, "water", ocean_shader, texture_image_id_water);
-		water.transform.scaling = 200.0f;
+		water.initialize(water_mesh, "water");
+		//water.transform.scaling = 200.0f;
 		water.transform.translation = { 0,0,-41.5 };
 
 		water_mesh_init = water_mesh;
@@ -176,6 +176,7 @@ void scene_structure::display()
 	display_gui();
 
 	//update_terrain(water_mesh, water_mesh_init, water, t);
+	gerstner_waves(water_mesh, water_mesh_init, water, t);
 }
 
 void scene_structure::display_semi_transparent()
