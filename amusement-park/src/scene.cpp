@@ -173,7 +173,7 @@ void scene_structure::initialize()
 
 	// Light from LIGHTNING
 	{
-		mesh lightn = mesh_load_file_obj("obj/lightning2_.obj");
+		mesh lightn = mesh_load_file_obj("obj/eclair1.obj");
 		lightn.uv *= 1;
 		GLuint const lightning_light = opengl_load_shader("shaders/light_cone/vert.glsl", "shaders/light_cone/frag.glsl");
 		GLuint const texture_image_id_lightning = opengl_load_texture_image("tex/lightning_.png", GL_REPEAT, GL_REPEAT);
@@ -210,7 +210,7 @@ void scene_structure::display()
 	draw(pole, environment);
 
 	if (cooldown == 0) {
-		cooldown = 40+20*((double)rand() / (RAND_MAX));
+		cooldown = 50+20*((double)rand() / (RAND_MAX));
 		lightning_life = 10;
 		lightning_draw.transform.translation = { 100*(((double)rand() / (RAND_MAX))-0.5f), 100*(((double)rand() / (RAND_MAX)) - 0.5f), -45.0f};
 	}
