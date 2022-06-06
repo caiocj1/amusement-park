@@ -25,8 +25,8 @@ uniform float specular_exp = 64.0; // Specular exponent
 uniform bool use_texture = true;
 uniform bool texture_inverse_y = false;
 
-uniform vec3 spotlight_color[5];
-uniform vec3 spotlight_position[5];
+uniform vec3 spotlight_color[1];
+uniform vec3 spotlight_position[1];
 uniform float spotlight_falloff;
 uniform float fog_falloff;
 
@@ -48,7 +48,7 @@ void main()
 	vec3 color_object  = fragment.color * color * color_image_texture.rgb;
 	vec3 color_shading = Ka * color_object;
 
-	for(int k_light=0; k_light<5; k_light++)
+	for(int k_light=0; k_light<1; k_light++)
 	{
 		vec3 v = spotlight_position[k_light]-fragment.position;
 		float dist = length(v);
