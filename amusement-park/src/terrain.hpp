@@ -17,4 +17,6 @@ cgp::mesh create_terrain_mesh();
 //  and update the mesh_drawable accordingly
 void update_terrain(cgp::mesh& terrain, cgp::mesh_drawable& terrain_visual, perlin_noise_parameters const& parameters);
 void update_terrain(cgp::mesh& terrain, cgp::mesh& terrain_init, cgp::mesh_drawable& terrain_visual, float t);
+
+void initialize_waves();
 void gerstner_waves(cgp::mesh& terrain, cgp::mesh& terrain_init, cgp::mesh_drawable& terrain_visual, float t);

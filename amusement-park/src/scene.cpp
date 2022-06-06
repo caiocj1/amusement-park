@@ -65,6 +65,7 @@ void scene_structure::initialize()
 
 		// Water **********************
 		GLuint const ocean_shader = opengl_load_shader("shaders/ocean/vert.glsl", "shaders/ocean/frag.glsl");
+		initialize_waves();
 
 		water_mesh = create_terrain_mesh();
 		water_mesh.uv *= 2;
@@ -73,6 +74,7 @@ void scene_structure::initialize()
 		water.initialize(water_mesh, "water");
 		//water.transform.scaling = 200.0f;
 		water.transform.translation = { 0,0,-41.5 };
+		water.shading.alpha = 0.9f;
 
 		water_mesh_init = water_mesh;
 
@@ -158,7 +160,6 @@ void scene_structure::display()
 	draw(global_frame, environment);
 
 	draw(terrain, environment);
-	draw(water, environment);
 
 	draw(metal, environment);
 	draw(lighthouse, environment);
@@ -191,6 +192,7 @@ void scene_structure::display_semi_transparent()
 	//  - Transparent elements cannot use depth buffer
 	//  - They are supposed to be display from furest to nearest elements
 	glDepthMask(false);
+	draw(water, environment);
 
 	draw(hierarchy, environment);
 
