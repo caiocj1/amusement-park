@@ -28,12 +28,19 @@ struct scene_structure {
 
 	light_shape_drawable light_drawable;
 
-	light_shape_drawable lightning;
-
 	// -------------- Meshes
-	cgp::mesh_drawable lightning_draw;
-	int lightning_life = 10;
-	int cooldown = 40;
+	cgp::mesh_drawable lightning_draw_big;
+	int lightning_life_big = 20;
+	int cooldown = 120;
+
+	cgp::mesh_drawable lightning_draw_1;
+	int lightning_life_1 = 10;
+	int cooldown_1 = 60;
+
+	cgp::mesh_drawable lightning_draw_2;
+	int lightning_life_2 = 10;
+	int cooldown_2 = 60;
+
 
 	cgp::mesh_drawable water;
 	cgp::mesh water_mesh;

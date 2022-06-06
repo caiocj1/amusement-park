@@ -165,20 +165,39 @@ void scene_structure::initialize()
 		hierarchy["light_cone_head"].transform.translation = { 20.7f, 33.0f, -6.8f };
 	}
 
-	// THUNDER - BOOOOOOM
-	lightning.initialize(shader_lights);
 
-	// Light from LIGHTNING
+	//Lighning groups
+	GLuint const lightning_light = opengl_load_shader("shaders/light_cone/vert.glsl", "shaders/light_cone/frag.glsl");
+
+	// B I G Lightning
+	{
+		mesh lightn = mesh_load_file_obj("obj/eclair4.obj");
+		
+
+		lightning_draw_big.initialize(lightn, "lightning", lightning_light);
+		lightning_draw_big.transform.scaling = 5.0f;
+		lightning_draw_big.shading.phong = { 1,1,1,1 };
+		lightning_draw_big.shading.color = { 1,1,1 };
+	}
+
+	// Lightning_1
 	{
 		mesh lightn = mesh_load_file_obj("obj/eclair1.obj");
-		lightn.uv *= 1;
-		GLuint const lightning_light = opengl_load_shader("shaders/light_cone/vert.glsl", "shaders/light_cone/frag.glsl");
-		GLuint const texture_image_id_lightning = opengl_load_texture_image("tex/lightning_.png", GL_REPEAT, GL_REPEAT);
 
-		lightning_draw.initialize(lightn, "lightning", lightning_light);
-		lightning_draw.transform.scaling = 50.0f;
-		lightning_draw.shading.phong = { 1,1,1,1 };
-		lightning_draw.shading.color = { 1,1,1 };
+		lightning_draw_1.initialize(lightn, "lightning", lightning_light);
+		lightning_draw_1.transform.scaling = 5.0f;
+		lightning_draw_1.shading.phong = { 1,1,1,1 };
+		lightning_draw_1.shading.color = { 1,1,1 };
+	}
+
+	// Lightning_2
+	{
+		mesh lightn = mesh_load_file_obj("obj/eclair3.obj");
+
+		lightning_draw_2.initialize(lightn, "lightning", lightning_light);
+		lightning_draw_2.transform.scaling = 5.0f;
+		lightning_draw_2.shading.phong = { 1,1,1,1 };
+		lightning_draw_2.shading.color = { 1,1,1 };
 	}
 
 	// Initialize camera
@@ -240,18 +259,44 @@ void scene_structure::display_semi_transparent(float t)
 	boat.shading.alpha = 0.6f + 0.4f*std::sin(0.08f*t);
 	draw(boat, environment);
 
-	lightning_draw.shading.alpha = 0.5 + 0.5f * std::sin(1000 * t);
+
+	//BIG Lightning
+	lightning_draw_big.shading.alpha = 0.5 + 0.5f * std::sin(1000 * t);
 	if (cooldown == 0) {
-		cooldown = 40 + 20 * ((double)rand() / (RAND_MAX));
-		lightning_life = 10;
-		lightning_draw.transform.translation = { 100 * (((double)rand() / (RAND_MAX)) - 0.5f), 100 * (((double)rand() / (RAND_MAX)) - 0.5f), -45.0f };
+		cooldown = 120 + 30 * ((double)rand() / (RAND_MAX));
+		lightning_life_big = 20;
+		lightning_draw_big.transform.translation = { 200 * (((double)rand() / (RAND_MAX)) - 0.5f), 200 * (((double)rand() / (RAND_MAX)) - 0.5f), -45.0f };
 	}
-	if (lightning_life > 0) {
-		draw(lightning_draw, environment);
-		lightning_life--;
+	if (lightning_life_big > 0) {
+		draw(lightning_draw_big, environment);
+		lightning_life_big--;
 	}
 
-	cooldown--;
+	//Lightning_1
+	lightning_draw_1.shading.alpha = 0.5 + 0.5f * std::sin(1000 * t);
+	if (cooldown_1 == 0) {
+		cooldown_1 = 60 + 30 * ((double)rand() / (RAND_MAX));
+		lightning_life_1 = 20;
+		lightning_draw_1.transform.translation = { 200 * (((double)rand() / (RAND_MAX)) - 0.5f), 200 * (((double)rand() / (RAND_MAX)) - 0.5f), -45.0f };
+	}
+	if (lightning_life_1 > 0) {
+		draw(lightning_draw_1, environment);
+		lightning_life_1--;
+	}
+
+	//Ligthning_2
+	lightning_draw_2.shading.alpha = 0.5 + 0.5f * std::sin(1000 * t);
+	if (cooldown_2 == 0) {
+		cooldown_2 = 60 + 30 * ((double)rand() / (RAND_MAX));
+		lightning_life_2 = 20;
+		lightning_draw_2.transform.translation = { 200 * (((double)rand() / (RAND_MAX)) - 0.5f), 200 * (((double)rand() / (RAND_MAX)) - 0.5f), -45.0f };
+	}
+	if (lightning_life_2 > 0) {
+		draw(lightning_draw_2, environment);
+		lightning_life_2--;
+	}
+
+	cooldown--; cooldown_1--; cooldown_2--;
 
 	draw(hierarchy, environment);
 
