@@ -1,4 +1,4 @@
-# Amusement Park
+# Dark Islands
 
 Authors: Caio Azevedo (https://github.com/caiocj1), Fabiano Menezes (https://github.com/fab-mnz)
 
