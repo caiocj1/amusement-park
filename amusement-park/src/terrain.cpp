@@ -26,6 +26,13 @@ mesh create_terrain_mesh()
 
 mesh create_flag_mesh()
 {
+	int const flag_sample = 100;
+	mesh flag = mesh_primitive_grid({ 0,0,0 }, { 0,5,-1}, { 0,5,4}, { 0,0,5}, flag_sample, flag_sample);
+	return flag;
+}
+
+mesh create_thunder()
+{
 	int const flag_sample = 10;
 	mesh flag = mesh_primitive_grid({ 0,0,0 }, { 0,5,0 }, { 0,5,3 }, { 0,0,3 }, flag_sample, flag_sample);
 	return flag;
@@ -85,7 +92,7 @@ void update_flag(mesh& flag, mesh& flag_init, mesh_drawable& flag_visual, float 
 
 			// use the noise as height value
 			//std::cout << terrain_init.position[idx].z + 0.001f * std::sin(1.0f * terrain.position[idx].x + 1.0f * terrain.position[idx].y + 1.0f * t) + 0.015f * std::sin(0.7f * terrain.position[idx].x - 0.7f * terrain.position[idx].y + 2.0f * t) << " ";
-			flag.position[idx].x = flag_init.position[idx].x + 1.0f*std::sin(2.0f * flag.position[idx].y + 4.0f * t); 
+			flag.position[idx].x = flag_init.position[idx].x + 1.0f * (0.05f + 0.3f*flag.position[idx].y) * std::sin(2.0f * flag.position[idx].y + 4.0f * t);
 			//terrain.uv[idx].x = terrain_init.uv[idx].x + 0.00f*t+ 0.01f * std::sin(1.0f * t);;
 			//terrain.uv[idx].y = terrain_init.uv[idx].y + 0.00f*t + 0.01f * std::sin(1.0f * t);;
 
