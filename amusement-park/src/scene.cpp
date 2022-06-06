@@ -9,18 +9,17 @@ void scene_structure::reset_mouse(GLFWwindow* window) {
 	glfwSetCursorPos(window, inputs.window.width / 2, inputs.window.height / 2);
 }
 
-
 void scene_structure::update_camera()
 {
 	inputs_keyboard_parameters const& keyboard = inputs.keyboard;
 
-	// The camera moves forward all the time
-	//   We consider in this example a constant velocity, so the displacement is: velocity * dt * front-camera-vector
+	// Calculate displacement vectors
 	float const dt = timer.update();
 	vec3 forward_displacement = gui.speed * 30 * dt * environment.camera.front();
 	vec3 upward_displacement = gui.speed * 30 * dt * vec3{0,0,1};
-
 	vec3 side_displacement = cross(forward_displacement, environment.camera.up());
+
+	// Use keyboard controls
 	if (keyboard.w)
 		environment.camera.center_of_rotation += forward_displacement;
 	if(keyboard.s)
@@ -34,6 +33,7 @@ void scene_structure::update_camera()
 	if (keyboard.shift)
 		environment.camera.center_of_rotation -= upward_displacement;
 
+	// Camera rotation
 	float phi = -(inputs.mouse.position.previous - inputs.mouse.position.current)[0];
 	float theta = (inputs.mouse.position.previous - inputs.mouse.position.current)[1];
 
@@ -47,11 +47,10 @@ void scene_structure::initialize()
 	GLuint const shader_lights = opengl_load_shader("shaders/mesh_lights/vert.glsl", "shaders/mesh_lights/frag.glsl");
 	mesh_drawable::default_shader = shader_lights;   // set this shader as the default one for all new shapes declared after this line 
 
-
 	// Basic set-up
 	// ***************************************** //
 
-	global_frame.initialize(mesh_primitive_frame(), "Frame");
+	//global_frame.initialize(mesh_primitive_frame(), "Frame");
 
 	// Physical models
 	{
@@ -97,7 +96,6 @@ void scene_structure::initialize()
 		cone.initialize(cone_mesh, "cone", shader_lights, texture_image_id_cone);
 		cone.transform.scaling = 1.2f;
 		cone.transform.translation = { 20.7f,33.0f,-5.0f };
-		//cone.shading.phong = { 1,0,0,1 };
 
 		hierarchy.add(lighthouse);
 		hierarchy.add(metal, "lighthouse");
@@ -111,7 +109,7 @@ void scene_structure::initialize()
 		castle.transform.scaling = 1.0f;
 		castle.transform.translation = {75.0f, -155.0f, -14.0f };
 		castle.transform.rotation *= rotation_transform::between_vector({ 0, -1, 0 }, {0, 1, 0});
-		castle.shading.phong = {0.3f,0.05f,0,1 };
+		castle.shading.phong = {0.6f,0.4f,0.4f,20.0f };
 		castle.shading.color = { 0.6f,0.6f,0.6f };
 
 		// Boat ******************
@@ -135,12 +133,11 @@ void scene_structure::initialize()
 		pole_mesh = mesh_primitive_cylinder(0.05f, { 0,0,0 }, { 0,0,15}, 10, 20, true);
 		pole.initialize(pole_mesh, "pole", shader_lights);
 		pole.transform.translation = {25.0f, 57.0f, -25.0f };
-
 	}
-
 
 	// The lights displayed as spheres using this helper initializer (*)-optionnal
 	light_drawable.initialize(shader_lights);
+	compute_light_position(0, environment);
 
 	// Light from lighthouse
 	{
@@ -184,10 +181,12 @@ void scene_structure::initialize()
 		lightning_draw.shading.color = { 1,1,1 };
 	}
 
+	// Initialize camera
 	environment.camera.axis = camera_spherical_coordinates_axis::z;
 	environment.camera.look_at({ -1, 0, 0 }, { 0,0,0 });
 	environment.camera.manipulator_rotate_spherical_coordinates(-Pi/2, 0);
 
+	// Set skybox folder
 	skybox.initialize("tex/skybox/");
 }
 
@@ -198,40 +197,27 @@ void scene_structure::display()
 	float t = timer.t;
 
 	draw(skybox, environment);
-	draw(global_frame, environment);
+	//draw(global_frame, environment);
 
 	draw(terrain, environment);
 
 	draw(metal, environment);
 	draw(lighthouse, environment);
 	draw(cone, environment);
+
 	draw(castle, environment);
-	//draw(flag, environment);
 	draw(pole, environment);
 
-	if (cooldown == 0) {
-		cooldown = 50+20*((double)rand() / (RAND_MAX));
-		lightning_life = 10;
-		lightning_draw.transform.translation = { 100*(((double)rand() / (RAND_MAX))-0.5f), 100*(((double)rand() / (RAND_MAX)) - 0.5f), -45.0f};
-	}
+	draw(light_drawable, environment);
 
-	if(lightning_life>0){
-		draw(lightning_draw, environment);
-		lightning_life--;
-	}
-
-	cooldown--;
-
-
-	// Update the position and color of the lights
-	compute_light_position(t, environment);
-	draw(light_drawable, environment); // this is a helper function from multiple_lights (display all the spotlights as spheres) (*)-optionnal
-
+	// Rotate lighthouse light
 	hierarchy["light_cone_head"].transform.rotation *= rotation_transform::from_axis_angle({ 0, 0, 1 }, 300 * dt);
 	hierarchy.update_local_to_global_coordinates();
 
+	// Show semi-transparent elements
 	display_semi_transparent(t);
 
+	// Update some elements
 	update_flag(flag_mesh, flag_mesh_init, flag, t);
 	gerstner_waves(water_mesh, water_mesh_init, water, t);
 }
@@ -250,14 +236,28 @@ void scene_structure::display_semi_transparent(float t)
 	glDepthMask(false);
 
 	draw(water, environment);
-	draw(hierarchy, environment);
-
-	boat.shading.alpha = 0.6f + 0.4f*std::sin(3.0f*t);
+	
+	boat.shading.alpha = 0.6f + 0.4f*std::sin(0.08f*t);
 	draw(boat, environment);
+
+	lightning_draw.shading.alpha = 0.5 + 0.5f * std::sin(1000 * t);
+	if (cooldown == 0) {
+		cooldown = 40 + 20 * ((double)rand() / (RAND_MAX));
+		lightning_life = 10;
+		lightning_draw.transform.translation = { 100 * (((double)rand() / (RAND_MAX)) - 0.5f), 100 * (((double)rand() / (RAND_MAX)) - 0.5f), -45.0f };
+	}
+	if (lightning_life > 0) {
+		draw(lightning_draw, environment);
+		lightning_life--;
+	}
+
+	cooldown--;
+
+	draw(hierarchy, environment);
 
 	draw(flag, environment);
 
-	// Don't forget to re-activate the depth-buffer write
+	// Re-activate the depth-buffer write
 	glDepthMask(true);
 	glDisable(GL_BLEND);
 }

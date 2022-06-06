@@ -48,11 +48,7 @@ int main(int, char* argv[])
 		helper_common.frame_begin(scene.environment.background_color, window, scene.inputs.window, scene.inputs.mouse.on_gui);
 		scene.environment.projection.update_aspect_ratio(scene.inputs.window.aspect_ratio());
 
-		// Display the ImGUI interface (button, sliders, etc)
-		//scene.display_gui();
-
 		scene.update_camera();
-
 
 		// Call the display of the scene
 		scene.display();
@@ -62,7 +58,7 @@ int main(int, char* argv[])
 	}
 
 	// Cleanup
-	cgp::imgui_cleanup();
+	//cgp::imgui_cleanup();
 	glfwDestroyWindow(window);
 	glfwTerminate();
 
@@ -114,7 +110,7 @@ GLFWwindow* standard_window_initialization(int width_target, int height_target)
 	std::cout << cgp::opengl_info_display() << std::endl;
 
 	// Initialize ImGUI
-	cgp::imgui_init(window);
+	//cgp::imgui_init(window);
 
 	// Set the callback functions for the inputs
 	glfwSetKeyCallback(window, keyboard_callback);            // Event called when a keyboard touch is pressed/released

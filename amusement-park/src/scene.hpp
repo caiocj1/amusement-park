@@ -32,7 +32,7 @@ struct scene_structure {
 
 	// -------------- Meshes
 	cgp::mesh_drawable lightning_draw;
-	int lightning_life= 10;
+	int lightning_life = 10;
 	int cooldown = 40;
 
 	cgp::mesh_drawable water;
@@ -56,13 +56,6 @@ struct scene_structure {
 	cgp::mesh pole_mesh;
 
 	cgp::mesh_drawable light_cones[20];
-
-	/*cgp::mesh_drawable out_light_cone1;
-	cgp::mesh_drawable out_light_cone2;
-	cgp::mesh_drawable mid_light_cone1;
-	cgp::mesh_drawable mid_light_cone2;
-	cgp::mesh_drawable in_light_cone1;
-	cgp::mesh_drawable in_light_cone2;*/
 
 	cgp::hierarchy_mesh_drawable hierarchy;
 
