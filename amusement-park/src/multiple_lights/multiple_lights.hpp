@@ -21,7 +21,7 @@ struct scene_environment_with_multiple_lights : cgp::scene_environment_basic_cam
 	float spotlight_falloff = 0.0001f;
 
 	// The characteristic attenuation due to the fog
-	float fog_falloff = 0.00006f;
+	float fog_falloff = 0.00001f;
 };
 
 // Send the uniform parameters of the scene with light - Function automatically called when using draw([mesh_drawable], scene_environment_with_multiple_lights);

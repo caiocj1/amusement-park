@@ -28,7 +28,13 @@ struct scene_structure {
 
 	light_shape_drawable light_drawable;
 
+	light_shape_drawable lightning;
+
 	// -------------- Meshes
+	cgp::mesh_drawable lightning_draw;
+	int lightning_life= 10;
+	int cooldown = 40;
+
 	cgp::mesh_drawable water;
 	cgp::mesh water_mesh;
 	cgp::mesh water_mesh_init;
@@ -40,6 +46,14 @@ struct scene_structure {
 	cgp::mesh_drawable cone;
 
 	cgp::mesh_drawable castle;
+	cgp::mesh_drawable boat;
+
+	cgp::mesh_drawable flag;
+	cgp::mesh flag_mesh;
+	cgp::mesh flag_mesh_init;
+
+	cgp::mesh_drawable pole;
+	cgp::mesh pole_mesh;
 
 	cgp::mesh_drawable light_cones[20];
 
@@ -60,7 +74,7 @@ struct scene_structure {
 
 	void initialize();  // Standard initialization to be called before the animation loop
 	void display();     // The frame display to be called within the animation loop
-	void display_semi_transparent();
+	void display_semi_transparent(float t);
 
 	void display_gui(); // The display of the GUI, also called within the animation loop
 	void reset_mouse(GLFWwindow* window);

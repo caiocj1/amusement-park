@@ -24,6 +24,20 @@ mesh create_terrain_mesh()
 	return terrain;
 }
 
+mesh create_flag_mesh()
+{
+	int const flag_sample = 100;
+	mesh flag = mesh_primitive_grid({ 0,0,0 }, { 0,5,-1}, { 0,5,4}, { 0,0,5}, flag_sample, flag_sample);
+	return flag;
+}
+
+mesh create_thunder()
+{
+	int const flag_sample = 10;
+	mesh flag = mesh_primitive_grid({ 0,0,0 }, { 0,5,0 }, { 0,5,3 }, { 0,0,3 }, flag_sample, flag_sample);
+	return flag;
+}
+
 void update_terrain(mesh& terrain, mesh_drawable& terrain_visual, perlin_noise_parameters const& parameters)
 {
 	// Number of samples in each direction (assuming a square grid)
@@ -59,10 +73,10 @@ void update_terrain(mesh& terrain, mesh_drawable& terrain_visual, perlin_noise_p
 	terrain_visual.update_color(terrain.color);
 }
 
-void update_terrain(mesh& terrain, mesh& terrain_init, mesh_drawable& terrain_visual, float t)
+void update_flag(mesh& flag, mesh& flag_init, mesh_drawable& flag_visual, float t)
 {
 	// Number of samples in each direction (assuming a square grid)
-	int const N = std::sqrt(terrain.position.size());
+	int const N = std::sqrt(flag.position.size());
 
 	// Recompute the new vertices
 	for (int ku = 0; ku < N; ++ku) {
@@ -78,9 +92,9 @@ void update_terrain(mesh& terrain, mesh& terrain_init, mesh_drawable& terrain_vi
 
 			// use the noise as height value
 			//std::cout << terrain_init.position[idx].z + 0.001f * std::sin(1.0f * terrain.position[idx].x + 1.0f * terrain.position[idx].y + 1.0f * t) + 0.015f * std::sin(0.7f * terrain.position[idx].x - 0.7f * terrain.position[idx].y + 2.0f * t) << " ";
-			terrain.position[idx].z = std::max(terrain_init.position[idx].z + 0.001f*std::sin(1.0f * terrain.position[idx].x + 1.0f * terrain.position[idx].y + 1.0f * t) + 0.015f * std::sin(0.7f * terrain.position[idx].x - 0.7f * terrain.position[idx].y + 2.0f * t), 0.0f);
-			terrain.uv[idx].x = terrain_init.uv[idx].x + 0.00f*t+ 0.01f * std::sin(1.0f * t);;
-			terrain.uv[idx].y = terrain_init.uv[idx].y + 0.00f*t + 0.01f * std::sin(1.0f * t);;
+			flag.position[idx].x = flag_init.position[idx].x + 1.0f * (0.05f + 0.3f*flag.position[idx].y) * std::sin(2.0f * flag.position[idx].y + 4.0f * t);
+			//terrain.uv[idx].x = terrain_init.uv[idx].x + 0.00f*t+ 0.01f * std::sin(1.0f * t);;
+			//terrain.uv[idx].y = terrain_init.uv[idx].y + 0.00f*t + 0.01f * std::sin(1.0f * t);;
 
 			// use also the noise as color value
 			//terrain.color[idx] = 0.3f * vec3(0, 0.5f, 0) + 0.7f * noise * vec3(1, 1, 1);
@@ -88,14 +102,13 @@ void update_terrain(mesh& terrain, mesh& terrain_init, mesh_drawable& terrain_vi
 	}
 
 	// Update the normal of the mesh structure
-	terrain.compute_normal();
+	flag.compute_normal();
 
 	// Update step: Allows to update a mesh_drawable without creating a new one
-	terrain_visual.update_position(terrain.position);
-	terrain_visual.update_normal(terrain.normal);
-	terrain_visual.update_color(terrain.color);
-	terrain_visual.update_uv(terrain.uv);
-
+	flag_visual.update_position(flag.position);
+	flag_visual.update_normal(flag.normal);
+	flag_visual.update_color(flag.color);
+	flag_visual.update_uv(flag.uv);
 }
 
 void gerstner_waves(mesh& terrain, mesh& terrain_init, mesh_drawable& terrain_visual, float t)
