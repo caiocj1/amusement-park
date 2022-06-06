@@ -49,7 +49,7 @@ int main(int, char* argv[])
 		scene.environment.projection.update_aspect_ratio(scene.inputs.window.aspect_ratio());
 
 		// Display the ImGUI interface (button, sliders, etc)
-		scene.display_gui();
+		//scene.display_gui();
 
 		scene.update_camera();
 

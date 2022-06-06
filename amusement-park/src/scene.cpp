@@ -72,7 +72,6 @@ void scene_structure::initialize()
 
 		GLuint const texture_image_id_water = opengl_load_texture_image("tex/water_4.jpg", GL_REPEAT, GL_REPEAT);
 		water.initialize(water_mesh, "water");
-		//water.transform.scaling = 200.0f;
 		water.transform.translation = { 0,0,-41.5 };
 		water.shading.alpha = 0.9f;
 
@@ -174,7 +173,6 @@ void scene_structure::display()
 	hierarchy.update_local_to_global_coordinates();
 
 	display_semi_transparent();
-	display_gui();
 
 	//update_terrain(water_mesh, water_mesh_init, water, t);
 	gerstner_waves(water_mesh, water_mesh_init, water, t);
@@ -192,8 +190,8 @@ void scene_structure::display_semi_transparent()
 	//  - Transparent elements cannot use depth buffer
 	//  - They are supposed to be display from furest to nearest elements
 	glDepthMask(false);
-	draw(water, environment);
 
+	draw(water, environment);
 	draw(hierarchy, environment);
 
 	// Don't forget to re-activate the depth-buffer write
