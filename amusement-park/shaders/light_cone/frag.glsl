@@ -25,10 +25,6 @@ uniform float specular_exp = 64.0; // Specular exponent
 uniform bool use_texture = true;
 uniform bool texture_inverse_y = false;
 
-uniform vec3 spotlight_color[5];
-uniform vec3 spotlight_position[5];
-uniform float spotlight_falloff;
-uniform float fog_falloff;
 
 void main()
 {
@@ -47,10 +43,5 @@ void main()
 
 	vec3 color_object  = fragment.color * color * color_image_texture.rgb;
 
-    //fog effect
-	float depth = length(fragment.eye-fragment.position);
-	float w_depth = exp(-fog_falloff*depth*depth);
-	vec3 color_with_fog = w_depth*color_object+(1-w_depth)*vec3(0.01,0.01,0.01);
-
-	FragColor = vec4( color_with_fog, alpha * color_image_texture.a);
+	FragColor = vec4( color_object, alpha * color_image_texture.a);
 }

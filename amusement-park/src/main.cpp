@@ -48,11 +48,7 @@ int main(int, char* argv[])
 		helper_common.frame_begin(scene.environment.background_color, window, scene.inputs.window, scene.inputs.mouse.on_gui);
 		scene.environment.projection.update_aspect_ratio(scene.inputs.window.aspect_ratio());
 
-		// Display the ImGUI interface (button, sliders, etc)
-		//scene.display_gui();
-
 		scene.update_camera();
-
 
 		// Call the display of the scene
 		scene.display();
