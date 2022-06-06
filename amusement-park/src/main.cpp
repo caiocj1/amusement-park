@@ -58,7 +58,7 @@ int main(int, char* argv[])
 	}
 
 	// Cleanup
-	cgp::imgui_cleanup();
+	//cgp::imgui_cleanup();
 	glfwDestroyWindow(window);
 	glfwTerminate();
 
@@ -110,7 +110,7 @@ GLFWwindow* standard_window_initialization(int width_target, int height_target)
 	std::cout << cgp::opengl_info_display() << std::endl;
 
 	// Initialize ImGUI
-	cgp::imgui_init(window);
+	//cgp::imgui_init(window);
 
 	// Set the callback functions for the inputs
 	glfwSetKeyCallback(window, keyboard_callback);            // Event called when a keyboard touch is pressed/released

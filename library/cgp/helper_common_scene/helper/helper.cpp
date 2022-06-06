@@ -60,15 +60,15 @@ namespace cgp {
 			glfwSetWindowTitle(window, title.c_str());
 		}
 
-		imgui_create_frame();
+		/*imgui_create_frame();
 		ImGui::Begin("GUI", NULL, ImGuiWindowFlags_AlwaysAutoResize);
-		cursor_on_gui = ImGui::GetIO().WantCaptureMouse;
+		cursor_on_gui = ImGui::GetIO().WantCaptureMouse;*/
 	}
 
 	void helper_common_scene::frame_end(GLFWwindow* window)
 	{
-		ImGui::End();
-		imgui_render_frame(window);
+		/*ImGui::End();
+		imgui_render_frame(window);*/
 		glfwSwapBuffers(window);
 		glfwPollEvents();
 	}
