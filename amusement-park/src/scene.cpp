@@ -64,15 +64,20 @@ void scene_structure::initialize()
 		terrain.shading.phong = { 1,1,0,1 };
 
 		// Water **********************
+<<<<<<< HEAD
 		//GLuint const ocean_shader = opengl_load_shader("shaders/ocean/vert.glsl", "shaders/ocean/frag.glsl");
+=======
+		GLuint const ocean_shader = opengl_load_shader("shaders/ocean/vert.glsl", "shaders/ocean/frag.glsl");
+		initialize_waves();
+>>>>>>> 97d70ef8bdb39743f919f63e5b024f1050206471
 
 		water_mesh = create_terrain_mesh();
 		water_mesh.uv *= 2;
 
 		GLuint const texture_image_id_water = opengl_load_texture_image("tex/water_4.jpg", GL_REPEAT, GL_REPEAT);
 		water.initialize(water_mesh, "water");
-		//water.transform.scaling = 200.0f;
 		water.transform.translation = { 0,0,-41.5 };
+		water.shading.alpha = 0.9f;
 
 		water_mesh_init = water_mesh;
 
@@ -182,7 +187,6 @@ void scene_structure::display()
 	draw(global_frame, environment);
 
 	draw(terrain, environment);
-	draw(water, environment);
 
 	draw(metal, environment);
 	draw(lighthouse, environment);
@@ -201,7 +205,6 @@ void scene_structure::display()
 	hierarchy.update_local_to_global_coordinates();
 
 	display_semi_transparent();
-	display_gui();
 
 	update_flag(flag_mesh, flag_mesh_init, flag, t);
 	gerstner_waves(water_mesh, water_mesh_init, water, t);
@@ -220,6 +223,7 @@ void scene_structure::display_semi_transparent()
 	//  - They are supposed to be display from furest to nearest elements
 	glDepthMask(false);
 
+	draw(water, environment);
 	draw(hierarchy, environment);
 
 	// Don't forget to re-activate the depth-buffer write

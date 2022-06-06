@@ -5,15 +5,17 @@ using namespace cgp;
 
 // Wave parameters
 
-vec2 k1 = { 0.1, 0 };
-vec2 k2 = { 0.2, 0.1 };
-vec2 k3 = { -0.1, 0.1 };
-vec2 k4 = { 0, 0.3 };
+vec2 wave_vecs[8];
+float ampls[8];
 
-float ampl1 = 0.5;
-float ampl2 = 0.3;
-float ampl3 = 0.2;
-float ampl4 = 0.4;
+void initialize_waves()
+{
+	for (int i = 0; i < 8; i++)
+	{
+		wave_vecs[i] = { rand_interval(-0.8, 0.8), rand_interval(-0.8, 0.8)};
+		ampls[i] = rand_interval(0.1, 0.3);
+	}
+}
 
 mesh create_terrain_mesh()
 {
@@ -106,7 +108,6 @@ void gerstner_waves(mesh& terrain, mesh& terrain_init, mesh_drawable& terrain_vi
 {
 	int const N = std::sqrt(terrain.position.size());
 
-
 	for (int ku = 0; ku < N; ++ku) {
 		for (int kv = 0; kv < N; ++kv) {
 			const float u = ku / (N - 1.0f);
@@ -114,25 +115,22 @@ void gerstner_waves(mesh& terrain, mesh& terrain_init, mesh_drawable& terrain_vi
 
 			int const idx = ku * N + kv;
 
-			terrain.position[idx].z = terrain_init.position[idx].z +
-				ampl1 * cos(dot(k1, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k1)) * t) +
-				ampl2 * cos(dot(k2, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k2)) * t) +
-				ampl3 * cos(dot(k3, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k3)) * t) +
-				ampl4 * cos(dot(k4, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k4)) * t);
+			terrain.position[idx].z = terrain_init.position[idx].z;
+			for (int i = 0; i < 8; i++)
+				terrain.position[idx].z += ampls[i] *
+				cos(dot(wave_vecs[i], { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(wave_vecs[i])) * t);
 
-			terrain.position[idx].x = terrain_init.position[idx].x -
-				((k1[0] / norm(k1)) * ampl1 * sin(dot(k1, {terrain_init.position[idx].x, terrain_init.position[idx].y}) - sqrt(9.8 * norm(k1)) * t) +
-				(k2[0] / norm(k2)) * ampl2 * sin(dot(k2, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k2)) * t) +
-				(k3[0] / norm(k3)) * ampl3 * sin(dot(k3, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k3)) * t) +
-				(k4[0] / norm(k4)) * ampl4 * sin(dot(k4, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k4)) * t));
+			terrain.position[idx].x = terrain_init.position[idx].x;
+			for (int i = 0; i < 8; i++)
+				terrain.position[idx].x -= (wave_vecs[i][0] / norm(wave_vecs[i])) * ampls[i] *
+				cos(dot(wave_vecs[i], { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(wave_vecs[i])) * t);
 
-			terrain.position[idx].y = terrain_init.position[idx].y -
-				((k1[1] / norm(k1)) * ampl1 * sin(dot(k1, {terrain_init.position[idx].x, terrain_init.position[idx].y}) - sqrt(9.8 * norm(k1)) * t) +
-				(k2[1] / norm(k2)) * ampl2 * sin(dot(k2, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k2)) * t) +
-				(k3[1] / norm(k3)) * ampl3 * sin(dot(k3, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k3)) * t) +
-				(k4[1] / norm(k4)) * ampl4 * sin(dot(k4, { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(k4)) * t));
+			terrain.position[idx].y = terrain_init.position[idx].y;
+			for (int i = 0; i < 8; i++)
+				terrain.position[idx].y -= (wave_vecs[i][1] / norm(wave_vecs[i])) * ampls[i] *
+				cos(dot(wave_vecs[i], { terrain_init.position[idx].x, terrain_init.position[idx].y }) - sqrt(9.8 * norm(wave_vecs[i])) * t);
 
-			terrain.color[idx] = vec3(0.01, 0.15, 0.28) + vec3(0.8, 0.7, 0.2) * (terrain.position[idx].z - terrain_init.position[idx].z) / 30;
+			terrain.color[idx] = vec3(0.01, 0.15, 0.28) + vec3(0.8, 0.7, 0.5) * (terrain.position[idx].z - terrain_init.position[idx].z) / 20;
 		}
 	}
 
